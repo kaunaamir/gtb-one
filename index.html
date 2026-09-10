@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GTB One — Timetable</title>
+<meta name="description" content="Live class timetable for GTB4CEC and GTBIT students.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="brand-mark crest">GTB<span>One</span></span>
+    </div>
+    <select id="collegeSelect" class="college-select"></select>
+  </div>
+</header>
+
+<main class="shell">
+
+  <section class="now-band">
+    <div class="now-eyebrow">
+      <span class="now-label" id="nowLabel">Live status</span>
+      <span class="now-clock" id="nowClock"></span>
+    </div>
+    <div class="now-title" id="nowTitle">Loading</div>
+    <div class="now-meta" id="nowMeta"></div>
+    <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+    <div class="progress-times" id="progressTimes"></div>
+  </section>
+
+  <div class="selector-block">
+    <div class="selector-label">BRANCH</div>
+    <div class="chip-row" id="branchChips"></div>
+  </div>
+
+  <div class="selector-block">
+    <div class="selector-label">SEMESTER</div>
+    <div class="chip-row" id="semesterChips"></div>
+  </div>
+
+  <div class="selector-block">
+    <div class="selector-label">SECTION</div>
+    <div class="chip-row" id="sectionChips"></div>
+  </div>
+
+  <div class="selector-block">
+    <div class="selector-label">DAY</div>
+    <div class="day-strip" id="dayStrip"></div>
+  </div>
+
+  <div class="strip-row">
+    <span class="updated-tag" id="updatedTag"></span>
+    <div class="view-toggle">
+      <button id="feedBtn" class="active">Feed</button>
+      <button id="gridBtn">Grid</button>
+    </div>
+  </div>
+
+  <div class="timeline" id="timeline"></div>
+  <div class="grid-view" id="gridView" style="display:none;"></div>
+
+  <div class="nav-stub">
+    <div class="nav-stub-item"><span class="nav-stub-icon">&#9635;</span>Faculty<span class="soon-badge">SOON</span></div>
+    <div class="nav-stub-item"><span class="nav-stub-icon">&#9776;</span>Resources<span class="soon-badge">SOON</span></div>
+    <div class="nav-stub-item"><span class="nav-stub-icon">&#9737;</span>Notices<span class="soon-badge">SOON</span></div>
+    <div class="nav-stub-item"><span class="nav-stub-icon">&#9679;</span>Campus<span class="soon-badge">SOON</span></div>
+  </div>
+
+  <footer>Built by students, for students &mdash; not an official college platform.</footer>
+
+</main>
+
+<nav class="bottom-nav">
+  <div class="bottom-nav-inner">
+    <button class="bottom-nav-item active">&#9635;<small>Timetable</small></button>
+    <button class="bottom-nav-item">&#9776;<small>Resources</small></button>
+    <button class="bottom-nav-item">&#9737;<small>Notices</small></button>
+    <button class="bottom-nav-item">&#9679;<small>Campus</small></button>
+  </div>
+</nav>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
