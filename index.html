@@ -14,11 +14,16 @@
     <div class="brand">
       <span class="brand-mark crest">GTB<span>One</span></span>
     </div>
-    <select id="collegeSelect" class="college-select"></select>
+    <div class="topbar-right">
+      <select id="collegeSelect" class="college-select"></select>
+      <div id="accountControl"></div>
+    </div>
   </div>
 </header>
 
 <main class="shell">
+
+<section id="view-timetable" class="view">
 
   <section class="now-band">
     <div class="now-eyebrow">
@@ -71,18 +76,52 @@
 
   <footer>Built by students, for students &mdash; not an official college platform.</footer>
 
+</section>
+
+<section id="view-auth" class="view" style="display:none;">
+  <h2 class="view-title">Account</h2>
+  <div id="authContent"></div>
+</section>
+
+<section id="view-profile" class="view" style="display:none;">
+  <h2 class="view-title">Profile</h2>
+  <div id="profileContent"></div>
+</section>
+
+<section id="view-attendance" class="view" style="display:none;">
+  <h2 class="view-title">Attendance</h2>
+  <div id="attendanceContent"></div>
+</section>
+
+<section id="view-attendance-status" class="view" style="display:none;">
+  <h2 class="view-title">Attendance Status</h2>
+  <div id="statusContent"></div>
+</section>
+
 </main>
+
+<div class="toast" id="toast"></div>
 
 <nav class="bottom-nav">
   <div class="bottom-nav-inner">
-    <button class="bottom-nav-item active">&#9635;<small>Timetable</small></button>
-    <button class="bottom-nav-item">&#9776;<small>Resources</small></button>
+    <button class="bottom-nav-item active" data-view="timetable">&#9635;<small>Timetable</small></button>
+    <button class="bottom-nav-item" data-view="attendance">&#10003;<small>Attendance</small></button>
     <button class="bottom-nav-item">&#9737;<small>Notices</small></button>
     <button class="bottom-nav-item">&#9679;<small>Campus</small></button>
   </div>
 </nav>
 
+<script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+<script src="config.js"></script>
+<script src="lib/supabase-client.js"></script>
 <script src="data.js"></script>
+<script src="lib/tt-helpers.js"></script>
 <script src="app.js"></script>
+<script src="auth.js"></script>
+<script src="profile.js"></script>
+<script src="attendance.js"></script>
+<script src="attendance-status.js"></script>
+<script src="auth-view.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
