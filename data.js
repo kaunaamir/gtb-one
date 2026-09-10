@@ -1963,6 +1963,1985 @@ const TIMETABLE_DATA = {
                 ]
               }
             }
+          },
+          "3": {
+            "sections": {
+              "CSE2": {
+                "Tuesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Ms. Raman Dhand",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Harpreet Kaur",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Dr. Poonam Narang",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Dr. Jasleen Kaur Sethi",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Ms. Basanti Pal Nandi",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Harpreet Kaur",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Dr. Poonam Narang",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Ms. Basanti Pal Nandi",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Dr. Jasleen Kaur Sethi",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Ms. Raman Dhand",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Harpreet Kaur",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Dr. Poonam Narang",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Dr. Jasleen Kaur Sethi",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Ms. Basanti Pal Nandi",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Ms. Raman Dhand",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Harpreet Kaur",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Ms. Basanti Pal Nandi",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Ms. Raman Dhand",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Dr. Poonam Narang",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  }
+                ]
+              },
+              "CSE(2nd Shift)": {
+                "Monday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Dr. Tarun Lata",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Amit Yadav",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Dr. Aashish Bhardwaj",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Ms. Jyotsana",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Ms. Niti Kumar",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  }
+                ],
+                "Tuesday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Ms. Jyotsana",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Dr. Tarun Lata",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Ms. Niti Kumar",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Ms. Niti Kumar",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Dr. Aashish Bhardwaj",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Amit Yadav",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Ms. Jyotsana",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Dr. Aashish Bhardwaj",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Dr. Tarun Lata",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Ms. Niti Kumar",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Amit Yadav",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Dr. Aashish Bhardwaj",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Dr. Tarun Lata",
+                    "location": "LEC_10",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Amit Yadav",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  }
+                ]
+              },
+              "CSE1": {
+                "Monday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Ms. Jyotsana",
+                    "location": "LAB_24",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Dr. Manisha Mittal",
+                    "location": "LAB_24",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Dr. Aashish Bhardwaj",
+                    "location": "LAB_24",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Ruhi",
+                    "location": "LAB_24",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Ms. Basanti Pal Nandi",
+                    "location": "LAB_24",
+                    "type": "lecture"
+                  }
+                ],
+                "Tuesday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Dr. Aashish Bhardwaj",
+                    "location": "LAB_24",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Ms. Basanti Pal Nandi",
+                    "location": "LAB_24",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Ruhi",
+                    "location": "LAB_24",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Dr. Manisha Mittal",
+                    "location": "LAB_24",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Ruhi",
+                    "location": "LAB_24",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Ms. Jyotsana",
+                    "location": "LAB_24",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Dr. Manisha Mittal",
+                    "location": "LAB_24",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Dr. Aashish Bhardwaj",
+                    "location": "LAB_24",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Ms. Basanti Pal Nandi",
+                    "location": "LAB_24",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Ms. Jyotsana",
+                    "location": "LAB_24",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Dr. Aashish Bhardwaj",
+                    "location": "LAB_24",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Ms. Basanti Pal Nandi",
+                    "location": "LAB_24",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Dr. Manisha Mittal",
+                    "location": "LAB_24",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Ruhi",
+                    "location": "LAB_24",
+                    "type": "lecture"
+                  }
+                ]
+              },
+              "CSE3": {
+                "Monday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Ruhi",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Dr. Poonam Narang",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Mr. Gurmeet Singh",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Dr. Jasleen Kaur Sethi",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Amit Yadav",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Dr. Jasleen Kaur Sethi",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Mr. Gurmeet Singh",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Ruhi",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Dr. Poonam Narang",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Amit Yadav",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Dr. Poonam Narang",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Mr. Gurmeet Singh",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Ruhi",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Ruhi",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Mr. Gurmeet Singh",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Dr. Poonam Narang",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Amit Yadav",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Amit Yadav",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Dr. Jasleen Kaur Sethi",
+                    "location": "LEC_9",
+                    "type": "lecture"
+                  }
+                ]
+              }
+            }
+          },
+          "5": {
+            "sections": {
+              "CSE3": {
+                "Monday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Monika",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Promila",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "Dr. Mandeep Kaur",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Ms. Mankirat Kaur",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Ms. Asfiya",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  }
+                ],
+                "Tuesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Ms. Asfiya",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Promila",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Ms. Mankirat Kaur",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Monika",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Mr. Hayat",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Promila",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Ms. Mankirat Kaur",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Mr. Hayat",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "Dr. Mandeep Kaur",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Monika",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Ms. Asfiya",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Ms. Mankirat Kaur",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Mr. Hayat",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Promila",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Monika",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  }
+                ]
+              },
+              "CSE(2nd Shift)": {
+                "Monday": [
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "Dr. Mandeep Kaur",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Ashu",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Promila",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Mr. Amit Yadav",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "16:30",
+                    "end": "17:30",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Ms. Mankirat Kaur",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Mr. Hayat",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Promila",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Ashu",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Ms. Mankirat Kaur",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "16:30",
+                    "end": "17:30",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Mr. Amit Yadav",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Mr. Hayat",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Ms. Mankirat Kaur",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Ashu",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Promila",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "16:30",
+                    "end": "17:30",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Mr. Amit Yadav",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Promila",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Ms. Mankirat Kaur",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Ashu",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "Dr. Mandeep Kaur",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "16:30",
+                    "end": "17:30",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Mr. Hayat",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  }
+                ]
+              },
+              "CSE1": {
+                "Monday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Damanpreet Kaur",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Divya",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Divya",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Ms. Esha",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Ms. Pooja Garg",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Ms. Monika",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "Dr. Mandeep Kaur",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  }
+                ],
+                "Tuesday": [
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Ms. Pooja Garg",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Damanpreet Kaur",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Ms. Monika",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Damanpreet Kaur",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Ms. Monika",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Divya",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Ms. Esha",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Divya",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Ms. Esha",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Damanpreet Kaur",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "Dr. Mandeep Kaur",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Ms. Pooja Garg",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Ms. Monika",
+                    "location": "BVS_11",
+                    "type": "lecture"
+                  }
+                ]
+              },
+              "CSE2": {
+                "Tuesday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Ms. Basanti Pal Nandi",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Damanpreet Kaur",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Ms. Pooja Garg",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Dr. Munshi Yadav",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Dr. Munshi Yadav",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Damanpreet Kaur",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Divya",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Damanpreet Kaur",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Ms. Basanti Pal Nandi",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "Dr. Mandeep Kaur",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Dr. Munshi Yadav",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Ms. Pooja Garg",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Divya",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Divya",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Damanpreet Kaur",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Ms. Pooja Garg",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "Dr. Mandeep Kaur",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Dr. Munshi Yadav",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Ms. Basanti Pal Nandi",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Divya",
+                    "location": "BVS_12",
+                    "type": "lecture"
+                  }
+                ]
+              }
+            }
+          },
+          "7": {
+            "sections": {
+              "CSE1": {
+                "Wednesday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "PRCV",
+                    "group": null,
+                    "professor": "CSE_FAC6",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "Web_Mining",
+                    "group": null,
+                    "professor": "CSE_FAC2",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DScience",
+                    "group": null,
+                    "professor": "CSE_FAC1",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "PEM",
+                    "group": null,
+                    "professor": "Ms. Depinder Kaur_(App.)",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "RLDL",
+                    "group": null,
+                    "professor": "CSE_FAC4",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "ML",
+                    "group": null,
+                    "professor": "CSE_FAC3",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "ML",
+                    "group": null,
+                    "professor": "CSE_FAC3",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "PRCV",
+                    "group": null,
+                    "professor": "CSE_FAC6",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DScience",
+                    "group": null,
+                    "professor": "CSE_FAC1",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "RLDL",
+                    "group": null,
+                    "professor": "CSE_FAC4",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "Web_Mining",
+                    "group": null,
+                    "professor": "CSE_FAC2",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "RLDL",
+                    "group": null,
+                    "professor": "CSE_FAC4",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "PEM",
+                    "group": null,
+                    "professor": "Ms. Depinder Kaur_(App.)",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "Web_Mining",
+                    "group": null,
+                    "professor": "CSE_FAC2",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "PRCV",
+                    "group": null,
+                    "professor": "CSE_FAC6",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "ML",
+                    "group": null,
+                    "professor": "CSE_FAC3",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DScience",
+                    "group": null,
+                    "professor": "CSE_FAC1",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  }
+                ]
+              },
+              "CSE2": {
+                "Monday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "Web_Mining",
+                    "group": null,
+                    "professor": "CSE_FAC2",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "PRCV",
+                    "group": null,
+                    "professor": "CSE_FAC5",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DScience",
+                    "group": null,
+                    "professor": "CSE_FAC6",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "RLDL",
+                    "group": null,
+                    "professor": "CSE_FAC4",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "ML",
+                    "group": null,
+                    "professor": "CSE_FAC3",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  }
+                ],
+                "Tuesday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "DScience",
+                    "group": null,
+                    "professor": "CSE_FAC6",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "RLDL",
+                    "group": null,
+                    "professor": "CSE_FAC4",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "Web_Mining",
+                    "group": null,
+                    "professor": "CSE_FAC2",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "PEM",
+                    "group": null,
+                    "professor": "Ms. Depinder Kaur_(App.)",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "PRCV",
+                    "group": null,
+                    "professor": "CSE_FAC5",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "ML",
+                    "group": null,
+                    "professor": "CSE_FAC3",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "PRCV",
+                    "group": null,
+                    "professor": "CSE_FAC5",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "RLDL",
+                    "group": null,
+                    "professor": "CSE_FAC4",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "PEM",
+                    "group": null,
+                    "professor": "Ms. Depinder Kaur_(App.)",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "Web_Mining",
+                    "group": null,
+                    "professor": "CSE_FAC2",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "ML",
+                    "group": null,
+                    "professor": "CSE_FAC3",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "DScience",
+                    "group": null,
+                    "professor": "CSE_FAC6",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  }
+                ]
+              },
+              "CSE3": {
+                "Tuesday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "PEM",
+                    "group": null,
+                    "professor": "Dr. Ankita Sethi",
+                    "location": "LAB_31",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "PRCV",
+                    "group": null,
+                    "professor": "CSE_FAC5",
+                    "location": "LAB_32",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DScience",
+                    "group": null,
+                    "professor": "CSE_FAC1",
+                    "location": "LAB_31",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "RLDL",
+                    "group": null,
+                    "professor": "CSE_FAC7",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "Web_Mining",
+                    "group": null,
+                    "professor": "CSE_FAC6",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "ML",
+                    "group": null,
+                    "professor": "Ms. Asfiya",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "PEM",
+                    "group": null,
+                    "professor": "Dr. Ankita Sethi",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DScience",
+                    "group": null,
+                    "professor": "CSE_FAC1",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "Web_Mining",
+                    "group": null,
+                    "professor": "CSE_FAC6",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "PRCV",
+                    "group": null,
+                    "professor": "CSE_FAC5",
+                    "location": "LAB_32",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "RLDL",
+                    "group": null,
+                    "professor": "CSE_FAC7",
+                    "location": "LAB_31",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "ML",
+                    "group": null,
+                    "professor": "Ms. Asfiya",
+                    "location": "LAB_31",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DScience",
+                    "group": null,
+                    "professor": "CSE_FAC1",
+                    "location": "LAB_32",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "PRCV",
+                    "group": null,
+                    "professor": "CSE_FAC5",
+                    "location": "LAB_31",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "ML",
+                    "group": null,
+                    "professor": "Ms. Asfiya",
+                    "location": "LAB_31",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "Web_Mining",
+                    "group": null,
+                    "professor": "CSE_FAC6",
+                    "location": "LAB_31",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "RLDL",
+                    "group": null,
+                    "professor": "CSE_FAC7",
+                    "location": "LAB_31",
+                    "type": "lecture"
+                  }
+                ]
+              }
+            }
           }
         }
       },
@@ -2317,6 +4296,550 @@ const TIMETABLE_DATA = {
                 ]
               }
             }
+          },
+          "3": {
+            "sections": {
+              "CSE(AI&ML)": {
+                "Monday": [
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Ms. Disha",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Dr. Manjeet Kaur",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Ms. Nayan",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  }
+                ],
+                "Tuesday": [
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Dr. Manjeet Kaur",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Ms. Prabhdrisht Kaur",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Ms. Manpreet Kaur",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Ms. Disha",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Ms. Nayan",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Ms. Manpreet Kaur",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Dr. Manjeet Kaur",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Ms. Nayan",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Ms. Prabhdrisht Kaur",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Ms. Disha",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Dr. Manjeet Kaur",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Ms. Disha",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Ms. Manpreet Kaur",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Ms. Prabhdrisht Kaur",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Ms. Prabhdrisht Kaur",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Ms. Nayan",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  }
+                ]
+              }
+            }
+          },
+          "5": {
+            "sections": {
+              "CSE(AI&ML)": {
+                "Tuesday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Ms. Kritika",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Manpreet Kaur",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Ms. Nayan",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Dr. Shikha Bhalla",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "Dr. Mandeep Kaur",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Ms. Kritika",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Ms. Kritika",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Ms. Nayan",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Manpreet Kaur",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Ms. Kritika",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Dr. Shikha Bhalla",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "Dr. Mandeep Kaur",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Ms. Kritika",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Manpreet Kaur",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Dr. Shikha Bhalla",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Ms. Nayan",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Ms. Kritika",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Dr. Shikha Bhalla",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Manpreet Kaur",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Ms. Kritika",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  }
+                ]
+              }
+            }
+          },
+          "7": {
+            "sections": {
+              "CSE(AIML)": {
+                "Monday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "RLDL",
+                    "group": null,
+                    "professor": "Ms. Prabhdrisht Kaur",
+                    "location": "LAB_31",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "SVVT",
+                    "group": null,
+                    "professor": "Dr. Shikha Bhalla",
+                    "location": "LAB_31",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "PME",
+                    "group": null,
+                    "professor": "Ms. Depinder Kaur_(App.)",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "ML",
+                    "group": null,
+                    "professor": "Dr. Pankaj Sharma",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "PRCV",
+                    "group": null,
+                    "professor": "Ms. Shruti",
+                    "location": "LAB_31",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "Soft.Comp.",
+                    "group": null,
+                    "professor": "Ms. Shruti",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "RLDL",
+                    "group": null,
+                    "professor": "Ms. Prabhdrisht Kaur",
+                    "location": "LAB_31",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "Soft.Comp.",
+                    "group": null,
+                    "professor": "Ms. Shruti",
+                    "location": "LAB_31",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "PRCV",
+                    "group": null,
+                    "professor": "Ms. Shruti",
+                    "location": "LAB_31",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "SVVT",
+                    "group": null,
+                    "professor": "Dr. Shikha Bhalla",
+                    "location": "LAB_31",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "ML",
+                    "group": null,
+                    "professor": "Dr. Pankaj Sharma",
+                    "location": "LAB_31",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "PME",
+                    "group": null,
+                    "professor": "Ms. Depinder Kaur_(App.)",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "Soft.Comp.",
+                    "group": null,
+                    "professor": "Ms. Shruti",
+                    "location": "LAB_31",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "RLDL",
+                    "group": null,
+                    "professor": "Ms. Prabhdrisht Kaur",
+                    "location": "LAB_31",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "SVVT",
+                    "group": null,
+                    "professor": "Dr. Shikha Bhalla",
+                    "location": "LAB_31",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "ML",
+                    "group": null,
+                    "professor": "Dr. Pankaj Sharma",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "PRCV",
+                    "group": null,
+                    "professor": "Ms. Shruti",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  }
+                ]
+              }
+            }
           }
         }
       },
@@ -2666,6 +5189,552 @@ const TIMETABLE_DATA = {
                     "group": null,
                     "professor": "Dr. Sunmeet Singh",
                     "location": "BVS_14",
+                    "type": "lecture"
+                  }
+                ]
+              }
+            }
+          },
+          "3": {
+            "sections": {
+              "CSE(DS)": {
+                "Monday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Harpreet Kaur",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Ms. Varsha",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Ms. Uapsana",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Kanwarjit Singh",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Prof. Deepali Virmani",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Kanwarjit Singh",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Ms. Uapsana",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Ms. Varsha",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Kanwarjit Singh",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Prof. Deepali Virmani",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Harpreet Kaur",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Ms. Uapsana",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Ms. Varsha",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Ms. Varsha",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Harpreet Kaur",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Harpreet Kaur",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Kanwarjit Singh",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Ms. Uapsana",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Prof. Deepali Virmani",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  }
+                ]
+              }
+            }
+          },
+          "5": {
+            "sections": {
+              "CSE(DS)": {
+                "Monday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Ms. Ishpreet Kaur",
+                    "location": "LAB_19",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Dr. Vimmi",
+                    "location": "LAB_19",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Ms. Uapsana",
+                    "location": "LAB_19",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Dr. Vimmi",
+                    "location": "LAB_19",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Ms. Vasudha",
+                    "location": "LAB_19",
+                    "type": "lecture"
+                  }
+                ],
+                "Tuesday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Ms. Uapsana",
+                    "location": "LAB_19",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "Dr. Mandeep Kaur",
+                    "location": "LAB_19",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Dr. Vimmi",
+                    "location": "LAB_19",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Ms. Vasudha",
+                    "location": "LAB_19",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Dr. Vimmi",
+                    "location": "LAB_19",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Ms. Ishpreet Kaur",
+                    "location": "LAB_19",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Dr. Vimmi",
+                    "location": "LAB_19",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Ms. Uapsana",
+                    "location": "LAB_19",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "Dr. Mandeep Kaur",
+                    "location": "LAB_19",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Dr. Vimmi",
+                    "location": "LAB_19",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Ms. Ishpreet Kaur",
+                    "location": "LAB_19",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Ms. Ishpreet Kaur",
+                    "location": "LAB_19",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Dr. Vimmi",
+                    "location": "LAB_19",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Ms. Vasudha",
+                    "location": "LAB_19",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Dr. Vimmi",
+                    "location": "LAB_19",
+                    "type": "lecture"
+                  }
+                ]
+              }
+            }
+          },
+          "7": {
+            "sections": {
+              "CSE(DS)": {
+                "Monday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "BDA",
+                    "group": null,
+                    "professor": "Ms. Vasudha",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "SVVT",
+                    "group": null,
+                    "professor": "Ms. Ishpreet Kaur",
+                    "location": "LAB_31",
+                    "type": "lecture"
+                  }
+                ],
+                "Tuesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "PME",
+                    "group": null,
+                    "professor": "Dr. Mandeep Kaur",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DSR",
+                    "group": null,
+                    "professor": "Dr. Vimmi",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "BI",
+                    "group": null,
+                    "professor": "DS_Fac1",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "EDADV",
+                    "group": null,
+                    "professor": "DS_Fac1",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "BI",
+                    "group": null,
+                    "professor": "DS_Fac1",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DSR",
+                    "group": null,
+                    "professor": "Dr. Vimmi",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "EDADV",
+                    "group": null,
+                    "professor": "DS_Fac1",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "SVVT",
+                    "group": null,
+                    "professor": "Ms. Ishpreet Kaur",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "BDA",
+                    "group": null,
+                    "professor": "Ms. Vasudha",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "DSR",
+                    "group": null,
+                    "professor": "Dr. Vimmi",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "BDA",
+                    "group": null,
+                    "professor": "Ms. Vasudha",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "EDADV",
+                    "group": null,
+                    "professor": "DS_Fac1",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "BI",
+                    "group": null,
+                    "professor": "DS_Fac1",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "SVVT",
+                    "group": null,
+                    "professor": "Ms. Ishpreet Kaur",
+                    "location": "LAB_30",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "PME",
+                    "group": null,
+                    "professor": "Dr. Mandeep Kaur",
+                    "location": "LAB_30",
                     "type": "lecture"
                   }
                 ]
@@ -3383,6 +6452,914 @@ const TIMETABLE_DATA = {
                     "group": null,
                     "professor": "Ms. Depinder Kaur",
                     "location": null,
+                    "type": "lecture"
+                  }
+                ]
+              }
+            }
+          },
+          "3": {
+            "sections": {
+              "ECE1": {
+                "Monday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Seema (App.)",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "AE-I",
+                    "group": null,
+                    "professor": "Dr. Gagandeep Kaur",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "AC",
+                    "group": null,
+                    "professor": "Ms. Neetu Settia",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Dr. Gurmeet Singh",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "S&S",
+                    "group": null,
+                    "professor": "Ms. Shivani Duggal",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  }
+                ],
+                "Tuesday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Seema (App.)",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "AE-I",
+                    "group": null,
+                    "professor": "Dr. Gagandeep Kaur",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Dr. Gurmeet Singh",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "AC",
+                    "group": null,
+                    "professor": "Ms. Neetu Settia",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "AE-I",
+                    "group": null,
+                    "professor": "Dr. Gagandeep Kaur",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "S&S",
+                    "group": null,
+                    "professor": "Ms. Shivani Duggal",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Seema (App.)",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Dr. Gurmeet Singh",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "S&S",
+                    "group": null,
+                    "professor": "Ms. Shivani Duggal",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "AE-I",
+                    "group": null,
+                    "professor": "Dr. Gagandeep Kaur",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "AC",
+                    "group": null,
+                    "professor": "Ms. Neetu Settia",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Dr. Gurmeet Singh",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Seema (App.)",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  }
+                ]
+              },
+              "ECE2": {
+                "Tuesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "AC",
+                    "group": null,
+                    "professor": "Ms. Neetu Settia",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Dr. Mukesh Sahu",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "S&S",
+                    "group": null,
+                    "professor": "Ms. Shivani Duggal",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "AE-I",
+                    "group": null,
+                    "professor": "Dr. Gagandeep Kaur",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Seema (App.)",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Seema (App.)",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "AC",
+                    "group": null,
+                    "professor": "Ms. Neetu Settia",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Dr. Mukesh Sahu",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "AE-I",
+                    "group": null,
+                    "professor": "Dr. Gagandeep Kaur",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "S&S",
+                    "group": null,
+                    "professor": "Ms. Shivani Duggal",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "AE-I",
+                    "group": null,
+                    "professor": "Dr. Gagandeep Kaur",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "AC",
+                    "group": null,
+                    "professor": "Ms. Neetu Settia",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Dr. Mukesh Sahu",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Seema (App.)",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "AE-I",
+                    "group": null,
+                    "professor": "Dr. Gagandeep Kaur",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Seema (App.)",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "S&S",
+                    "group": null,
+                    "professor": "Ms. Shivani Duggal",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Dr. Mukesh Sahu",
+                    "location": "LEC_16",
+                    "type": "lecture"
+                  }
+                ]
+              }
+            }
+          },
+          "5": {
+            "sections": {
+              "ECE1": {
+                "Tuesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "DSP",
+                    "group": null,
+                    "professor": "Dr. Mahinder Singh",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "ME",
+                    "group": null,
+                    "professor": "Ms. Vidisha Khetarpal",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "ICS",
+                    "group": null,
+                    "professor": "Mr. Amrish Maggo",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "TLW&AD",
+                    "group": null,
+                    "professor": "Mr. Kalyan Singh",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DCN",
+                    "group": null,
+                    "professor": "Ms. Raman Dhand",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "DCN",
+                    "group": null,
+                    "professor": "Ms. Raman Dhand",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "ME",
+                    "group": null,
+                    "professor": "Ms. Vidisha Khetarpal",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DSP",
+                    "group": null,
+                    "professor": "Mr. Amrish Maggo",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "FAC_APPLIED",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "TLW&AD",
+                    "group": null,
+                    "professor": "Mr. Kalyan Singh",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "FAC_APPLIED",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "ICS",
+                    "group": null,
+                    "professor": "Dr. Mahinder Singh",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DCN",
+                    "group": null,
+                    "professor": "Ms. Raman Dhand",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DSP",
+                    "group": null,
+                    "professor": "Mr. Amrish Maggo",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "TLW&AD",
+                    "group": null,
+                    "professor": "Mr. Kalyan Singh",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "DSP",
+                    "group": null,
+                    "professor": "Mr. Amrish Maggo",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "ME",
+                    "group": null,
+                    "professor": "Ms. Vidisha Khetarpal",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "TLW&AD",
+                    "group": null,
+                    "professor": "Mr. Kalyan Singh",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DCN",
+                    "group": null,
+                    "professor": "Ms. Raman Dhand",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "ICS",
+                    "group": null,
+                    "professor": "Dr. Mahinder Singh",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  }
+                ]
+              },
+              "ECE2": {
+                "Monday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "ICS",
+                    "group": null,
+                    "professor": "Ms. Disha",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "FAC_APPLIED",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DCN",
+                    "group": null,
+                    "professor": "Ms. Niti Kumar",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "TLW&AD",
+                    "group": null,
+                    "professor": "Mr. Kalyan Singh",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "ME",
+                    "group": null,
+                    "professor": "Ms. Vidisha Khetarpal",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "DSP",
+                    "group": null,
+                    "professor": "Dr. Mahinder Singh",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  }
+                ],
+                "Tuesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "TLW&AD",
+                    "group": null,
+                    "professor": "Mr. Kalyan Singh",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DCN",
+                    "group": null,
+                    "professor": "Ms. Niti Kumar",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DSP",
+                    "group": null,
+                    "professor": "Dr. Mahinder Singh",
+                    "location": "LAB-31",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "DSP",
+                    "group": null,
+                    "professor": "Dr. Mahinder Singh",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "TLW&AD",
+                    "group": null,
+                    "professor": "Mr. Kalyan Singh",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DCN",
+                    "group": null,
+                    "professor": "Ms. Niti Kumar",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "ICS",
+                    "group": null,
+                    "professor": "Ms. Disha",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "ME",
+                    "group": null,
+                    "professor": "Ms. Vidisha Khetarpal",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "FAC_APPLIED",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "ICS",
+                    "group": null,
+                    "professor": "Ms. Disha",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "TLW&AD",
+                    "group": null,
+                    "professor": "Mr. Kalyan Singh",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DCN",
+                    "group": null,
+                    "professor": "Ms. Niti Kumar",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "ME",
+                    "group": null,
+                    "professor": "Ms. Vidisha Khetarpal",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DSP",
+                    "group": null,
+                    "professor": "Dr. Mahinder Singh",
+                    "location": "Lab-31",
+                    "type": "lecture"
+                  }
+                ]
+              }
+            }
+          },
+          "7": {
+            "sections": {
+              "ECE1": {
+                "Monday": [
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "ISE",
+                    "group": null,
+                    "professor": "Dr. Deepali Sharma",
+                    "location": "LAB_32",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "FL",
+                    "group": null,
+                    "professor": "Dr. Mukesh Sahu",
+                    "location": "LAB_32",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "IDBMS",
+                    "group": null,
+                    "professor": "Dr. Prachi Dewan",
+                    "location": "LAB_32",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Dr. Manisha Mittal",
+                    "location": "LAB_32",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "ISE",
+                    "group": null,
+                    "professor": "Dr. Deepali Sharma",
+                    "location": "LAB_32",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "IIOT",
+                    "group": null,
+                    "professor": "Mr. Jaijeet Singh",
+                    "location": "LAB_32",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "PEM",
+                    "group": null,
+                    "professor": "FAC_APPLIED",
+                    "location": "LAB_32",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Dr. Manisha Mittal",
+                    "location": "LAB_32",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "FL",
+                    "group": null,
+                    "professor": "Dr. Mukesh Sahu",
+                    "location": "LAB_32",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "IDBMS",
+                    "group": null,
+                    "professor": "Dr. Prachi Dewan",
+                    "location": "LAB_32",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "IDBMS",
+                    "group": null,
+                    "professor": "Dr. Prachi Dewan",
+                    "location": "LAB_32",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "ISE",
+                    "group": null,
+                    "professor": "Dr. Deepali Sharma",
+                    "location": "LAB_32",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "IIOT",
+                    "group": null,
+                    "professor": "Mr. Jaijeet Singh",
+                    "location": "LAB_32",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Dr. Manisha Mittal",
+                    "location": "LAB_32",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "PEM",
+                    "group": null,
+                    "professor": "FAC_APPLIED",
+                    "location": "LAB_32",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "IIOT",
+                    "group": null,
+                    "professor": "Mr. Jaijeet Singh",
+                    "location": "LAB_32",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Dr. Manisha Mittal",
+                    "location": "LAB_32",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "FL",
+                    "group": null,
+                    "professor": "Dr. Mukesh Sahu",
+                    "location": "LAB_32",
                     "type": "lecture"
                   }
                 ]
@@ -4813,12 +8790,2028 @@ const TIMETABLE_DATA = {
                 ]
               }
             }
+          },
+          "3": {
+            "sections": {
+              "IT(2nd Shift)": {
+                "Monday": [
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Dr. Gurpreet Kaur",
+                    "location": "BVS_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Dr. Tarun Lata",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Aman Kumar",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Mr. Gurmeet Singh",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  }
+                ],
+                "Tuesday": [
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Dr. Amandeep Kaur",
+                    "location": "BVS_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Dr. Gurpreet Kaur",
+                    "location": "BVS_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Aman Kumar",
+                    "location": "BVS_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Mr. Gurmeet Singh",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Dr. Amandeep Kaur",
+                    "location": "BVS_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Mr. Gurmeet Singh",
+                    "location": "BVS_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Aman Kumar",
+                    "location": "BVS_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Dr. Tarun Lata",
+                    "location": "BVS_14",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Dr. Gurpreet Kaur",
+                    "location": "BVS_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Dr. Tarun Lata",
+                    "location": "BVS_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Dr. Amandeep Kaur",
+                    "location": "BVS_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Mr. Gurmeet Singh",
+                    "location": "BVS_13",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Aman Kumar",
+                    "location": "BVS_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Dr. Gurpreet Kaur",
+                    "location": "BVS_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Dr. Tarun Lata",
+                    "location": "BVS_13",
+                    "type": "lecture"
+                  }
+                ]
+              },
+              "IT1": {
+                "Monday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Ms. Debleena",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Dr. Prachi Dewan",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Ms. Shipra Raheja",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Navjot Singh",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Navjot Singh",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Seema (App.)",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  }
+                ],
+                "Tuesday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Seema (App.)",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Dr. Prachi Dewan",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Ms. Debleena",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Ms. Shipra Raheja",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Navjot Singh",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Navjot Singh",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Seema (App.)",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Dr. Prachi Dewan",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Ms. Debleena",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Ms. Debleena",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Ms. Shipra Raheja",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Dr. Prachi Dewan",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Ms. Seema (App.)",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  }
+                ]
+              },
+              "IT2": {
+                "Tuesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Dr. Manjeet Kaur",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Ms. Meenakshi",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Dr. Savneet Kaur",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Dr. Deepali Sharma",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Kanwarjit Singh",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Dr. Manjeet Kaur",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Ms. Meenakshi",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Kanwarjit Singh",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Dr. Deepali Sharma",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Dr. Deepali Sharma",
+                    "location": "LEC_8",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Kanwarjit Singh",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Ms. Meenakshi",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Dr. Manjeet Kaur",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Dr. Savneet Kaur",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Dr. Deepali Sharma",
+                    "location": "LEC_11",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Ms. Meenakshi",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Kanwarjit Singh",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Dr. Manjeet Kaur",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Dr. Savneet Kaur",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  }
+                ]
+              },
+              "IT3": {
+                "Monday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Ms. Varsha",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Kanwarjit Singh",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Dr. Parsan Kaur",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Ms. Kapila Malhotra",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  }
+                ],
+                "Tuesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Kanwarjit Singh",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Ms. Kapila Malhotra",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Dr. P.S. Bedi",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Dr. Parsan Kaur",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Ms. Varsha",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Ms. Varsha",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Dr. P.S. Bedi",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Dr. Parsan Kaur",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Kanwarjit Singh",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Ms. Kapila Malhotra",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "DLCD",
+                    "group": null,
+                    "professor": "Ms. Varsha",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "DM",
+                    "group": null,
+                    "professor": "Mr. Kanwarjit Singh",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "OOPs",
+                    "group": null,
+                    "professor": "Dr. P.S. Bedi",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CM",
+                    "group": null,
+                    "professor": "Dr. Parsan Kaur",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DS",
+                    "group": null,
+                    "professor": "Ms. Kapila Malhotra",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  }
+                ]
+              }
+            }
+          },
+          "5": {
+            "sections": {
+              "IT(2nd Shift)": {
+                "Monday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Mr. Pradeep Gulati",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Mr. Amandeep Singh",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Mr. Gaurav Sandhu",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Dr. Rashmi Arora",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Mr. Navjot Singh",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "FAC_APPLIED",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  }
+                ],
+                "Tuesday": [
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Dr. Rashmi Arora",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Mr. Navjot Singh",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Mr. Pradeep Gulati",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Mr. Gaurav Sandhu",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "FAC_APPLIED",
+                    "location": "LEC_15",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Mr. Pradeep Gulati",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Mr. Navjot Singh",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Mr. Amandeep Singh",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Dr. Rashmi Arora",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Mr. Navjot Singh",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Mr. Amandeep Singh",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Mr. Pradeep Gulati",
+                    "location": "LEC_14",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Mr. Gaurav Sandhu",
+                    "location": "LEC_12",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Mr. Amandeep Singh",
+                    "location": "LEC_13",
+                    "type": "lecture"
+                  }
+                ]
+              },
+              "IT1": {
+                "Monday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Shipra Raheja",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Meenakshi",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Mr. Navjot Singh",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Ms. Jasleen Kaur Bhatia",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Mr. Amandeep Singh",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  }
+                ],
+                "Tuesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Mr. Navjot Singh",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "FAC_APPLIED",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Shipra Raheja",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Mr. Amandeep Singh",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Meenakshi",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Shipra Raheja",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Meenakshi",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Mr. Amandeep Singh",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Ms. Jasleen Kaur Bhatia",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Mr. Navjot Singh",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Mr. Navjot Singh",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Meenakshi",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "FAC_APPLIED",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Ms. Jasleen Kaur Bhatia",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Shipra Raheja",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  }
+                ]
+              },
+              "IT2": {
+                "Monday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Mr. Pradeep Gulati",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Ms. Jasleen Kaur Bhatia",
+                    "location": "BVS_25",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Mr. Gaurav Sandhu",
+                    "location": "BVS_25",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Mr. Aman Kumar",
+                    "location": "BVS_25",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Kapila Malhotra",
+                    "location": "BVS_25",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Kapila Malhotra",
+                    "location": "BVS_25",
+                    "type": "lecture"
+                  }
+                ],
+                "Tuesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Mr. Gaurav Sandhu",
+                    "location": "BVS_25",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Ms. Jasleen Kaur Bhatia",
+                    "location": "BVS_25",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Mr. Pradeep Gulati",
+                    "location": "BVS_25",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Mr. Aman Kumar",
+                    "location": "BVS_25",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "FAC_APPLIED",
+                    "location": "BVS_25",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Mr. Pradeep Gulati",
+                    "location": "BVS_25",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Kapila Malhotra",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Ms. Jasleen Kaur Bhatia",
+                    "location": "BVS_25",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Mr. Aman Kumar",
+                    "location": "BVS_25",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Mr. Gaurav Sandhu",
+                    "location": "BVS_25",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Kapila Malhotra",
+                    "location": "BVS_25",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Mr. Pradeep Gulati",
+                    "location": "BVS_25",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "FAC_APPLIED",
+                    "location": "BVS_25",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Mr. Aman Kumar",
+                    "location": "BVS_25",
+                    "type": "lecture"
+                  }
+                ]
+              },
+              "IT3": {
+                "Monday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Dr. Rashmi Arora",
+                    "location": "BVS_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Bhavneet Kaur",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Dr. Rashmi Arora",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Debleena",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Ms. Bhavneet Kaur",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "FAC_APPLIED",
+                    "location": "BVS_13",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "EFE",
+                    "group": null,
+                    "professor": "FAC_APPLIED",
+                    "location": "BVS_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Debleena",
+                    "location": "BVS_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Dr. Rashmi Arora",
+                    "location": "BVS_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Dr. Rashmi Arora",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Bhavneet Kaur",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Debleena",
+                    "location": "BVS_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Bhavneet Kaur",
+                    "location": "BVS_13",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Dr. Rashmi Arora",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Ms. Bhavneet Kaur",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "OS",
+                    "group": null,
+                    "professor": "Ms. Bhavneet Kaur",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "DAA",
+                    "group": null,
+                    "professor": "Dr. Rashmi Arora",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "SE",
+                    "group": null,
+                    "professor": "Ms. Bhavneet Kaur",
+                    "location": "BVS_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "CN",
+                    "group": null,
+                    "professor": "Ms. Debleena",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "CD",
+                    "group": null,
+                    "professor": "Dr. Rashmi Arora",
+                    "location": "BVS_21",
+                    "type": "lecture"
+                  }
+                ]
+              }
+            }
+          },
+          "7": {
+            "sections": {
+              "IT(FSD)": {
+                "Monday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "WMATD",
+                    "group": null,
+                    "professor": "Ms. Kapila Malhotra",
+                    "location": "LAB_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "IPR",
+                    "group": null,
+                    "professor": "Mr. Aman Kumar",
+                    "location": "LAB_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "PPMySQL",
+                    "group": null,
+                    "professor": "IT_FAC1",
+                    "location": "LAB_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "MAD",
+                    "group": null,
+                    "professor": "Mr. Aman Kumar",
+                    "location": "LAB_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "PEM",
+                    "group": null,
+                    "professor": "Ms. Depinder Kaur_(App.)",
+                    "location": "LAB_15",
+                    "type": "lecture"
+                  }
+                ],
+                "Tuesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "MAD",
+                    "group": null,
+                    "professor": "Mr. Aman Kumar",
+                    "location": "LAB_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "PPMySQL",
+                    "group": null,
+                    "professor": "IT_FAC1",
+                    "location": "LAB_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "IPR",
+                    "group": null,
+                    "professor": "Mr. Aman Kumar",
+                    "location": "LAB_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "WMATD",
+                    "group": null,
+                    "professor": "Ms. Kapila Malhotra",
+                    "location": "LAB_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "WCN",
+                    "group": null,
+                    "professor": "IT_FAC3",
+                    "location": "LAB_15",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "IPR",
+                    "group": null,
+                    "professor": "Mr. Aman Kumar",
+                    "location": "LAB_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "PPMySQL",
+                    "group": null,
+                    "professor": "IT_FAC1",
+                    "location": "LAB_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "WCN",
+                    "group": null,
+                    "professor": "IT_FAC3",
+                    "location": "LAB_15",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "WCN",
+                    "group": null,
+                    "professor": "IT_FAC3",
+                    "location": "LAB_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "MAD",
+                    "group": null,
+                    "professor": "Mr. Aman Kumar",
+                    "location": "LAB_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "WMATD",
+                    "group": null,
+                    "professor": "Ms. Kapila Malhotra",
+                    "location": "LAB_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "PEM",
+                    "group": null,
+                    "professor": "Ms. Depinder Kaur_(App.)",
+                    "location": "LAB_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "IPR",
+                    "group": null,
+                    "professor": "Mr. Aman Kumar",
+                    "location": "LAB_15",
+                    "type": "lecture"
+                  }
+                ]
+              },
+              "IT(MLDA)": {
+                "Tuesday": [
+                  {
+                    "start": "08:00",
+                    "end": "09:00",
+                    "subject": "WCN",
+                    "group": null,
+                    "professor": "Ms. Jasleen Kaur Bhatia",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "MLDAF",
+                    "group": null,
+                    "professor": "IT_FAC3",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "SDL",
+                    "group": null,
+                    "professor": "Ms. Bhavneet Kaur",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "UL",
+                    "group": null,
+                    "professor": "Mr. Amandeep Singh",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "IPR",
+                    "group": null,
+                    "professor": "Dr. Savneet Kaur",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "PEM",
+                    "group": null,
+                    "professor": "Ms. Depinder Kaur_(App.)",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "WCN",
+                    "group": null,
+                    "professor": "Ms. Jasleen Kaur Bhatia",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "MLDAF",
+                    "group": null,
+                    "professor": "IT_FAC3",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "SDL",
+                    "group": null,
+                    "professor": "Ms. Bhavneet Kaur",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "UL",
+                    "group": null,
+                    "professor": "Mr. Amandeep Singh",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "IPR",
+                    "group": null,
+                    "professor": "Dr. Savneet Kaur",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "WCN",
+                    "group": null,
+                    "professor": "Ms. Jasleen Kaur Bhatia",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "IPR",
+                    "group": null,
+                    "professor": "Dr. Savneet Kaur",
+                    "location": "LAB_22",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "MLDAF",
+                    "group": null,
+                    "professor": "IT_FAC3",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "IPR",
+                    "group": null,
+                    "professor": "Dr. Savneet Kaur",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "UL",
+                    "group": null,
+                    "professor": "Mr. Amandeep Singh",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "PEM",
+                    "group": null,
+                    "professor": "Ms. Depinder Kaur_(App.)",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "SDL",
+                    "group": null,
+                    "professor": "Ms. Bhavneet Kaur",
+                    "location": "LAB_20",
+                    "type": "lecture"
+                  }
+                ]
+              },
+              "IT3": {
+                "Monday": [
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "WCN",
+                    "group": null,
+                    "professor": "Dr. Gurpreet Kaur",
+                    "location": "LAB_18",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "WMATD/MLDAF",
+                    "group": null,
+                    "professor": "IT_FAC1, IT_FAC4",
+                    "location": "LAB_18",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "PEM",
+                    "group": null,
+                    "professor": "Dr. Ankita Sethi",
+                    "location": "LAB_18",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "IPR",
+                    "group": null,
+                    "professor": "Dr. Amandeep Kaur",
+                    "location": "LAB_18",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "PPMySQL/SDL",
+                    "group": null,
+                    "professor": "IT_FAC1, IT_FAC3",
+                    "location": "LAB_15",
+                    "type": "lecture"
+                  }
+                ],
+                "Tuesday": [
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "IPR",
+                    "group": null,
+                    "professor": "Dr. Amandeep Kaur",
+                    "location": "LAB_18",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "MAD/UL",
+                    "group": null,
+                    "professor": "IT_FAC1, Dr. P.S. Bedi",
+                    "location": "LAB_18",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "WMATD/MLDAF",
+                    "group": null,
+                    "professor": "IT_FAC1, IT_FAC4",
+                    "location": "LAB_18",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "MAD/UL",
+                    "group": null,
+                    "professor": "IT_FAC1, Dr. P.S. Bedi",
+                    "location": "LAB_18",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "WCN",
+                    "group": null,
+                    "professor": "Dr. Gurpreet Kaur",
+                    "location": "LAB_18",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "IPR",
+                    "group": null,
+                    "professor": "Dr. Amandeep Kaur",
+                    "location": "LAB_18",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "PPMySQL/SDL",
+                    "group": null,
+                    "professor": "IT_FAC1, IT_FAC3",
+                    "location": "LAB_18",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "IPR",
+                    "group": null,
+                    "professor": "Dr. Amandeep Kaur",
+                    "location": "LAB_18",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "WMATD/MLDAF",
+                    "group": null,
+                    "professor": "IT_FAC1, IT_FAC4",
+                    "location": "LAB_18",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "WCN",
+                    "group": null,
+                    "professor": "Dr. Gurpreet Kaur",
+                    "location": "LAB_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "MAD/UL",
+                    "group": null,
+                    "professor": "IT_FAC1, Dr. P.S. Bedi",
+                    "location": "LAB_18",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "PEM",
+                    "group": null,
+                    "professor": "Dr. Ankita Sethi",
+                    "location": "LAB_15",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "PPMySQL/SDL",
+                    "group": null,
+                    "professor": "IT_FAC1, IT_FAC3",
+                    "location": "LAB_18",
+                    "type": "lecture"
+                  }
+                ]
+              }
+            }
           }
         }
       }
     }
   }
-};
+};;
 
 const COLLEGE_META = [
   { id: "gtb4cec", label: "GTB4CEC", full: "GTB 4th Centenary Engineering College", available: true },
