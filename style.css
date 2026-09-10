@@ -15,6 +15,11 @@
   --sage: #7ea27a;
   --slate: #7a86a0;
   --danger: #c1655a;
+  --gv-lecture: #5b8def;
+  --gv-lab: #ec5c93;
+  --gv-tutorial: #34d399;
+  --gv-break: #f5a623;
+  --gv-active: #7c6cf6;
   --radius-s: 4px;
   --radius-m: 8px;
   font-size: 16px;
@@ -434,55 +439,107 @@ main { padding-top: 20px; }
 
 .grid-view {
   margin-top: 18px;
-  overflow-x: auto;
-  border: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 12px;
+}
+
+.gv-empty {
+  grid-column: 1 / -1;
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--text-faint);
+  font-size: 0.9rem;
+  border: 1px dashed var(--line);
   border-radius: var(--radius-m);
 }
 
-table.week-grid {
-  border-collapse: collapse;
-  width: 100%;
-  min-width: 640px;
-  font-size: 0.76rem;
+.gv-card {
+  --gv-accent: var(--gv-lecture);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--gv-accent);
+  border-radius: var(--radius-m);
+  padding: 14px;
+  display: flex;
+  gap: 12px;
 }
 
-table.week-grid th {
-  background: var(--panel-raised);
+.gv-card.is-now {
+  border-color: var(--gv-active);
+  border-left-color: var(--gv-active);
+  box-shadow: 0 0 0 1px var(--gv-active), 0 0 14px rgba(124,108,246,0.25);
+}
+
+.gv-card.type-lecture { --gv-accent: var(--gv-lecture); }
+.gv-card.type-lab { --gv-accent: var(--gv-lab); }
+.gv-card.type-tutorial { --gv-accent: var(--gv-tutorial); }
+.gv-card.type-break { --gv-accent: var(--gv-break); }
+
+.gv-time {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: var(--text);
+  white-space: nowrap;
+  padding-top: 1px;
+}
+
+.gv-time .gv-arrow {
+  color: var(--text-faint);
+  font-weight: 400;
+  font-size: 0.7rem;
+  margin: 2px 0;
+}
+
+.gv-time .gv-end {
   color: var(--text-dim);
   font-weight: 600;
-  padding: 8px 6px;
-  text-align: left;
-  border-bottom: 1px solid var(--line);
-  position: sticky;
-  top: 0;
 }
 
-table.week-grid td {
-  padding: 6px;
-  vertical-align: top;
-  border-bottom: 1px solid var(--line);
-  border-right: 1px solid var(--line);
+.gv-body { flex: 1; min-width: 0; }
+
+.gv-type {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+  color: var(--gv-accent);
 }
 
-table.week-grid td:first-child, table.week-grid th:first-child {
-  color: var(--text-faint);
-  font-variant-numeric: tabular-nums;
-  white-space: nowrap;
-}
-
-.cell-block {
-  border-radius: 3px;
-  padding: 4px 6px;
-  font-weight: 600;
+.gv-subject {
+  font-size: 0.95rem;
+  font-weight: 700;
   color: var(--text);
-  font-size: 0.72rem;
-  line-height: 1.3;
+  line-height: 1.25;
+  margin-bottom: 8px;
 }
 
-.cell-block.type-lecture { background: rgba(90,168,160,0.14); }
-.cell-block.type-lab { background: rgba(211,162,74,0.14); }
-.cell-block.type-tutorial { background: rgba(126,162,122,0.14); }
-.cell-block.type-break { color: var(--text-faint); font-weight: 500; }
+.type-break .gv-subject { font-weight: 600; }
+
+.gv-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.gv-meta-row {
+  font-size: 0.76rem;
+  color: var(--text-dim);
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.gv-meta-icon {
+  color: var(--text-faint);
+  flex: 0 0 auto;
+}
 
 .nav-stub {
   margin-top: 26px;

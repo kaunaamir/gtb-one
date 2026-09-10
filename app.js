@@ -152,7 +152,7 @@ function findNextSlot(schedule) {
 }
 
 function renderNowBand() {
-  const schedule = currentSchedule().filter(s => s.type !== "break" || true);
+  const schedule = currentSchedule();
   const live = findLiveSlot(schedule);
   const clockEl = document.getElementById("nowClock");
   const now = new Date();
@@ -234,6 +234,7 @@ function renderFeed() {
       const details = [];
       if (slot.location) details.push(`<span>${slot.location}</span>`);
       if (slot.professor) details.push(`<span>${slot.professor}</span>`);
+      if (slot.group) details.push(`<span>Group ${slot.group}</span>`);
       card.innerHTML = `
         <div class="slot-type">${slot.type}</div>
         <div class="slot-subject">${slot.subject}</div>
@@ -252,39 +253,47 @@ function renderGrid() {
   wrap.style.display = "none";
   gridWrap.style.display = "";
   gridWrap.innerHTML = "";
-  const sem = getBranchData();
-  if (!sem || !state.section) return;
-  const bySection = sem.sections[state.section] || {};
-  const slotSet = new Set();
-  WEEKDAYS.forEach(day => (bySection[day] || []).forEach(s => slotSet.add(`${s.start}-${s.end}`)));
-  const slots = Array.from(slotSet).sort((a, b) => toMinutes(a.split("-")[0]) - toMinutes(b.split("-")[0]));
 
-  const table = document.createElement("table");
-  table.className = "week-grid";
-  const thead = document.createElement("thead");
-  thead.innerHTML = `<tr><th>Time</th>${WEEKDAYS.map(d => `<th>${d.slice(0, 3)}</th>`).join("")}</tr>`;
-  table.appendChild(thead);
+  const schedule = currentSchedule();
+  if (!schedule.length) {
+    gridWrap.innerHTML = `<div class="gv-empty">No classes on ${state.day}.</div>`;
+    return;
+  }
 
-  const tbody = document.createElement("tbody");
-  slots.forEach(slotKey => {
-    const [start, end] = slotKey.split("-");
-    const tr = document.createElement("tr");
-    let rowHtml = `<td>${formatTime(start)}</td>`;
-    WEEKDAYS.forEach(day => {
-      const match = (bySection[day] || []).find(s => s.start === start && s.end === end);
-      if (!match) {
-        rowHtml += `<td></td>`;
-      } else if (match.type === "break") {
-        rowHtml += `<td><div class="cell-block type-break">Break</div></td>`;
-      } else {
-        rowHtml += `<td><div class="cell-block type-${match.type}">${match.subject}${match.location ? `<br>${match.location}` : ""}</div></td>`;
-      }
-    });
-    tr.innerHTML = rowHtml;
-    tbody.appendChild(tr);
+  const live = findLiveSlot(schedule);
+  schedule.forEach(slot => {
+    const card = document.createElement("div");
+    card.className = `gv-card type-${slot.type}` + (live === slot ? " is-now" : "");
+
+    const time = document.createElement("div");
+    time.className = "gv-time";
+    time.innerHTML = `<span>${formatTime(slot.start)}</span><span class="gv-arrow">&#8595;</span><span class="gv-end">${formatTime(slot.end)}</span>`;
+
+    const body = document.createElement("div");
+    body.className = "gv-body";
+
+    if (slot.type === "break") {
+      body.innerHTML = `
+        <div class="gv-type">Break</div>
+        <div class="gv-subject">${slot.subject || "Break"}</div>
+        ${slot.location ? `<div class="gv-meta"><div class="gv-meta-row"><span class="gv-meta-icon">&#128205;</span>${slot.location}</div></div>` : ""}
+      `;
+    } else {
+      const metaRows = [];
+      if (slot.location) metaRows.push(`<div class="gv-meta-row"><span class="gv-meta-icon">&#128205;</span>${slot.location}</div>`);
+      if (slot.professor) metaRows.push(`<div class="gv-meta-row"><span class="gv-meta-icon">&#128100;</span>${slot.professor}</div>`);
+      if (slot.group) metaRows.push(`<div class="gv-meta-row"><span class="gv-meta-icon">&#128101;</span>Group ${slot.group}</div>`);
+      body.innerHTML = `
+        <div class="gv-type">${slot.type}</div>
+        <div class="gv-subject">${slot.subject}</div>
+        <div class="gv-meta">${metaRows.join("")}</div>
+      `;
+    }
+
+    card.appendChild(time);
+    card.appendChild(body);
+    gridWrap.appendChild(card);
   });
-  table.appendChild(tbody);
-  gridWrap.appendChild(table);
 }
 
 function renderViewToggle() {
