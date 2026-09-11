@@ -20,7 +20,9 @@ function getBranchData() {
 function getSections() {
   const sem = getBranchData();
   if (!sem) return [];
-  return Object.keys(sem.sections);
+  return Object.keys(sem.sections).filter(name =>
+    Object.values(sem.sections[name]).some(dayArr => Array.isArray(dayArr) && dayArr.length > 0)
+  );
 }
 
 function toMinutes(hhmm) {
@@ -78,15 +80,15 @@ function renderBranchChips() {
 function renderSemesterChips() {
   const row = document.getElementById("semesterChips");
   row.innerHTML = "";
-  const branch = TIMETABLE_DATA[state.college] && TIMETABLE_DATA[state.college].branches[state.branch];
-  SEMESTER_META.forEach(s => {
-    const available = !!(branch && branch.semesters[String(s)]);
+  ACADEMIC_YEARS.forEach(year => {
+    const available = ttYearHasContent(state.college, state.branch, year);
+    const resolved = ttResolveSemesterForYear(state.college, state.branch, year);
     const btn = document.createElement("button");
-    btn.className = "chip" + (s === state.semester ? " active" : "");
-    btn.textContent = `SEM ${s}`;
+    btn.className = "chip" + (state.semester === resolved ? " active" : "");
+    btn.textContent = `YEAR ${year}`;
     btn.disabled = !available;
     btn.onclick = () => {
-      state.semester = s;
+      state.semester = resolved;
       state.section = null;
       renderAll();
     };

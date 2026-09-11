@@ -854,38 +854,155 @@ table.subject-table td { padding: 9px 12px; border-top: 1px solid var(--line); }
 }
 
 .toast.show { opacity: 1; transform: translate(-50%, 0); }
-  margin-top: 26px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 8px;
+
+.live-line {
+  font-size: 0.78rem;
+  color: var(--text-faint);
+  margin-top: 14px;
 }
 
-.nav-stub-item {
-  background: var(--panel);
-  border: 1px solid var(--line);
+.room-chip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.room-chip {
   border-radius: var(--radius-s);
   padding: 12px 8px;
   text-align: center;
-  color: var(--text-faint);
-  font-size: 0.7rem;
-  font-weight: 600;
-  position: relative;
-  cursor: default;
-}
-
-.nav-stub-icon { font-size: 1.05rem; display: block; margin-bottom: 4px; }
-
-.soon-badge {
-  position: absolute;
-  top: 4px;
-  right: 4px;
-  font-size: 0.55rem;
-  background: var(--panel-raised);
-  color: var(--text-faint);
-  padding: 1px 4px;
-  border-radius: 3px;
+  font-family: 'Space Grotesk', sans-serif;
   font-weight: 700;
+  font-size: 0.82rem;
 }
+
+.room-chip-empty {
+  background: rgba(126,162,122,0.12);
+  border: 1px solid var(--sage);
+  color: var(--sage);
+}
+
+.busy-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.busy-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-m);
+  padding: 10px 14px;
+}
+
+.busy-room {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--clay);
+  flex: 0 0 auto;
+  min-width: 64px;
+}
+
+.busy-detail { flex: 1; min-width: 0; }
+.busy-subject { font-weight: 600; font-size: 0.86rem; }
+.busy-subject.type-lecture { color: var(--gv-lecture); }
+.busy-subject.type-lab { color: var(--gv-lab); }
+.busy-subject.type-tutorial { color: var(--gv-tutorial); }
+.busy-meta { font-size: 0.74rem; color: var(--text-faint); margin-top: 2px; }
+
+.faculty-search {
+  width: 100%;
+  max-width: 420px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  color: var(--text);
+  padding: 11px 14px;
+  border-radius: var(--radius-s);
+  font-size: 0.9rem;
+  font-family: inherit;
+}
+
+.faculty-search:focus { outline: none; border-color: var(--brass); }
+
+.faculty-results {
+  max-width: 420px;
+  margin-top: 6px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-s);
+  overflow: hidden;
+  display: none;
+}
+
+.faculty-result-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: var(--panel);
+  border: none;
+  border-bottom: 1px solid var(--line);
+  color: var(--text);
+  padding: 10px 14px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.faculty-result-item:last-child { border-bottom: none; }
+.faculty-result-item:hover { background: var(--panel-raised); }
+
+.faculty-result-empty {
+  padding: 10px 14px;
+  color: var(--text-faint);
+  font-size: 0.82rem;
+  background: var(--panel);
+}
+
+.faculty-now-band { margin-top: 18px; padding: 16px 18px; }
+
+.faculty-day-block { margin-top: 14px; }
+
+.faculty-day-label {
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.faculty-row {
+  display: flex;
+  gap: 14px;
+  padding: 10px 14px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-m);
+  margin-bottom: 8px;
+}
+
+.faculty-row.is-now { border-color: var(--brass); box-shadow: inset 0 0 0 1px rgba(211,162,74,0.35); }
+
+.faculty-time {
+  flex: 0 0 auto;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 0.76rem;
+  color: var(--text-dim);
+  white-space: nowrap;
+  padding-top: 1px;
+}
+
+.faculty-info { flex: 1; min-width: 0; }
+.faculty-subject { font-weight: 600; font-size: 0.88rem; }
+.faculty-subject.type-lecture { color: var(--gv-lecture); }
+.faculty-subject.type-lab { color: var(--gv-lab); }
+.faculty-subject.type-tutorial { color: var(--gv-tutorial); }
+.faculty-meta { font-size: 0.74rem; color: var(--text-faint); margin-top: 2px; }
 
 footer {
   margin-top: 34px;

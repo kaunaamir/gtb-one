@@ -599,7 +599,7 @@ const TIMETABLE_DATA = {
                     "subject": "HVE-1",
                     "group": null,
                     "professor": "Ms. Kamaljeet Kaur",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -608,7 +608,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC2",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -617,7 +617,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Hunny Bhandula",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -626,7 +626,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "PHY_FAC1",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -671,7 +671,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Dr. Rajiv Chopra",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   }
                 ],
@@ -691,7 +691,7 @@ const TIMETABLE_DATA = {
                     "subject": "DECO",
                     "group": null,
                     "professor": "Ms. Varsha",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -756,7 +756,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "PHY_FAC1",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -765,7 +765,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Hunny Bhandula",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -774,7 +774,7 @@ const TIMETABLE_DATA = {
                     "subject": "HVE-1",
                     "group": null,
                     "professor": "Ms. Kamaljeet Kaur",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -783,7 +783,7 @@ const TIMETABLE_DATA = {
                     "subject": "DECO",
                     "group": null,
                     "professor": "Ms. Varsha",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -792,7 +792,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Dr. Rajiv Chopra",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -801,7 +801,7 @@ const TIMETABLE_DATA = {
                     "subject": "Env_Studies",
                     "group": null,
                     "professor": "Dr. Archana Dagar",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -810,7 +810,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC2",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   }
                 ],
@@ -875,7 +875,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC2",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   }
                 ],
@@ -886,7 +886,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Dr. Rajiv Chopra",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -895,7 +895,7 @@ const TIMETABLE_DATA = {
                     "subject": "Env_Studies",
                     "group": null,
                     "professor": "Dr. Archana Dagar",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -904,7 +904,7 @@ const TIMETABLE_DATA = {
                     "subject": "DECO",
                     "group": null,
                     "professor": "Ms. Varsha",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -913,7 +913,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "PHY_FAC1",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -922,7 +922,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Hunny Bhandula",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -931,7 +931,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC2",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   }
                 ]
@@ -998,7 +998,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC2",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1007,7 +1007,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Lt. Gurveen Singh",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1016,7 +1016,7 @@ const TIMETABLE_DATA = {
                     "subject": "DECO",
                     "group": null,
                     "professor": "Mr. Amrish",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   }
                 ],
@@ -1045,7 +1045,7 @@ const TIMETABLE_DATA = {
                     "subject": "Env_Studies",
                     "group": null,
                     "professor": "Dr. Archana Dagar",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1054,7 +1054,7 @@ const TIMETABLE_DATA = {
                     "subject": "HVE-1",
                     "group": null,
                     "professor": "Ms. Kamaljeet Kaur",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1063,7 +1063,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC2",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1072,7 +1072,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Ms. Ashu",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1081,7 +1081,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Lt. Gurveen Singh",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   }
                 ],
@@ -1092,7 +1092,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC2",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1173,7 +1173,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Ms. Ashu",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   }
                 ],
@@ -1184,7 +1184,7 @@ const TIMETABLE_DATA = {
                     "subject": "HVE-1",
                     "group": null,
                     "professor": "Ms. Kamaljeet Kaur",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1193,7 +1193,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC2",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1202,7 +1202,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Lt. Gurveen Singh",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1211,7 +1211,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "PHY_FAC1",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1220,7 +1220,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Ms. Ashu",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1229,7 +1229,7 @@ const TIMETABLE_DATA = {
                     "subject": "DECO",
                     "group": null,
                     "professor": "Mr. Amrish",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   }
                 ],
@@ -1240,7 +1240,7 @@ const TIMETABLE_DATA = {
                     "subject": "HVE",
                     "group": null,
                     "professor": "Ms Kamaljeet Kaur",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -1249,7 +1249,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "PHY_FAC1",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1267,7 +1267,7 @@ const TIMETABLE_DATA = {
                     "subject": "Env_Studies",
                     "group": null,
                     "professor": "Dr. Archana Dagar",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1276,7 +1276,7 @@ const TIMETABLE_DATA = {
                     "subject": "DECO",
                     "group": null,
                     "professor": "Mr. Amrish",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1285,7 +1285,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "PHY_FAC1",
-                    "location": null,
+                    "location": "LEC_5",
                     "type": "lecture"
                   }
                 ]
@@ -1298,7 +1298,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Ms. Esha Saxena",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   },
                   {
@@ -1307,7 +1307,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC2",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   },
                   {
@@ -1316,7 +1316,7 @@ const TIMETABLE_DATA = {
                     "subject": "Env_Studies",
                     "group": null,
                     "professor": "Dr. Manpreet Kaur Bagga",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   },
                   {
@@ -1325,7 +1325,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "PHY_FAC1",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   },
                   {
@@ -1334,7 +1334,7 @@ const TIMETABLE_DATA = {
                     "subject": "DECO",
                     "group": null,
                     "professor": "Ms. Raman Dhand",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   }
                 ],
@@ -1363,7 +1363,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Ms. Esha Saxena",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   },
                   {
@@ -1372,7 +1372,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Hunny Bhandula",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   },
                   {
@@ -1381,7 +1381,7 @@ const TIMETABLE_DATA = {
                     "subject": "HVE-1",
                     "group": null,
                     "professor": "Ms. Kamaljeet Kaur",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   },
                   {
@@ -1390,7 +1390,7 @@ const TIMETABLE_DATA = {
                     "subject": "DECO",
                     "group": null,
                     "professor": "Ms. Raman Dhand",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   },
                   {
@@ -1399,7 +1399,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC2",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   }
                 ],
@@ -1473,7 +1473,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "PHY_FAC1",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   }
                 ],
@@ -1484,7 +1484,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Ms. Esha Saxena",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   },
                   {
@@ -1493,7 +1493,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Hunny Bhandula",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   },
                   {
@@ -1502,7 +1502,7 @@ const TIMETABLE_DATA = {
                     "subject": "Env_Studies",
                     "group": null,
                     "professor": "Dr. Manpreet Kaur Bagga",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   },
                   {
@@ -1511,7 +1511,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC2",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   },
                   {
@@ -1520,7 +1520,7 @@ const TIMETABLE_DATA = {
                     "subject": "DECO",
                     "group": null,
                     "professor": "Ms. Raman Dhand",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   },
                   {
@@ -1529,7 +1529,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "PHY_FAC1",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   }
                 ],
@@ -1558,7 +1558,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC2",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   },
                   {
@@ -1567,7 +1567,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Hunny Bhandula",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   },
                   {
@@ -1612,7 +1612,7 @@ const TIMETABLE_DATA = {
                     "subject": "HVE",
                     "group": null,
                     "professor": "Ms Kamaljeet Kaur",
-                    "location": null,
+                    "location": "LEC_5",
                     "type": "lecture"
                   }
                 ]
@@ -1625,7 +1625,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Ms. Monica",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1634,7 +1634,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Gurjinder Singh",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1643,7 +1643,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC1",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -1688,7 +1688,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "Dr. Kanika",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   }
                 ],
@@ -1735,7 +1735,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "Dr. Kanika",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -1744,7 +1744,7 @@ const TIMETABLE_DATA = {
                     "subject": "DECO",
                     "group": null,
                     "professor": "Ms. Niti Kumar",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -1789,7 +1789,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC1",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   }
                 ],
@@ -1800,7 +1800,7 @@ const TIMETABLE_DATA = {
                     "subject": "DECO",
                     "group": null,
                     "professor": "Ms. Niti Kumar",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1809,7 +1809,7 @@ const TIMETABLE_DATA = {
                     "subject": "Env_Studies",
                     "group": null,
                     "professor": "Dr. Manpreet Kaur Bagga",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1818,7 +1818,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Ms. Monica",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1827,7 +1827,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Gurjinder Singh",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1856,7 +1856,7 @@ const TIMETABLE_DATA = {
                     "subject": "DECO",
                     "group": null,
                     "professor": "Ms. Niti Kumar",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -1865,7 +1865,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Ms. Monica",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -1874,7 +1874,7 @@ const TIMETABLE_DATA = {
                     "subject": "HVE-1",
                     "group": null,
                     "professor": "Ms. Kamaljeet Kaur",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -1883,7 +1883,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC1",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -1912,7 +1912,7 @@ const TIMETABLE_DATA = {
                     "subject": "HVE-1",
                     "group": null,
                     "professor": "Ms. Kamaljeet Kaur",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1921,7 +1921,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "Dr. Kanika",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1939,7 +1939,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC1",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -1948,7 +1948,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Gurjinder Singh",
-                    "location": null,
+                    "location": "LEC_1",
                     "type": "lecture"
                   },
                   {
@@ -1957,7 +1957,7 @@ const TIMETABLE_DATA = {
                     "subject": "Env_Studies",
                     "group": null,
                     "professor": "Dr. Manpreet Kaur Bagga",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   }
                 ]
@@ -4901,7 +4901,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Dr. Sunmeet Singh",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   }
                 ],
@@ -4912,7 +4912,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "Dr. Simranjeet Kaur",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -5013,7 +5013,7 @@ const TIMETABLE_DATA = {
                     "subject": "Env_Studies",
                     "group": null,
                     "professor": "Dr. Sanjeev",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   },
                   {
@@ -5022,7 +5022,7 @@ const TIMETABLE_DATA = {
                     "subject": "HVE-1",
                     "group": null,
                     "professor": "Ms. Kamaljeet Kaur",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   },
                   {
@@ -5031,7 +5031,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "Dr. Simranjeet Kaur",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   },
                   {
@@ -5060,7 +5060,7 @@ const TIMETABLE_DATA = {
                     "subject": "HVE-1",
                     "group": null,
                     "professor": "Ms. Kamaljeet Kaur",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   },
                   {
@@ -5161,7 +5161,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "Dr. Simranjeet Kaur",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   },
                   {
@@ -5170,7 +5170,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "Dr. Ambika Tundwal",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   },
                   {
@@ -5179,7 +5179,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Prof. Deepali Virmani",
-                    "location": null,
+                    "location": "LEC_6",
                     "type": "lecture"
                   },
                   {
@@ -5756,7 +5756,7 @@ const TIMETABLE_DATA = {
                     "subject": "Env_Studies",
                     "group": null,
                     "professor": "Dr. Sanjeev",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -5765,7 +5765,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Neeraj Kant",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -5774,7 +5774,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Prof. Deepali Virmani",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -5783,7 +5783,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "Dr. Simranjeet Kaur",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -5792,7 +5792,7 @@ const TIMETABLE_DATA = {
                     "subject": "CommSkills",
                     "group": null,
                     "professor": "Dr. Ankita Sethi",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -5801,7 +5801,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "Ms. Vandana Yadav",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -5810,7 +5810,7 @@ const TIMETABLE_DATA = {
                     "subject": "BEE",
                     "group": null,
                     "professor": "Ms. Anita Chaudhary",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   }
                 ],
@@ -5895,7 +5895,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "Dr. Simranjeet Kaur",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -5904,7 +5904,7 @@ const TIMETABLE_DATA = {
                     "subject": "Env_Studies",
                     "group": null,
                     "professor": "Dr. Sanjeev",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -5913,7 +5913,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Neeraj Kant",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -5922,7 +5922,7 @@ const TIMETABLE_DATA = {
                     "subject": "CommSkills",
                     "group": null,
                     "professor": "Dr. Ankita Sethi",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -5967,7 +5967,7 @@ const TIMETABLE_DATA = {
                     "subject": "BEE",
                     "group": null,
                     "professor": "Ms. Anita Chaudhary",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   }
                 ],
@@ -5987,7 +5987,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "Ms. Vandana Yadav",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -5996,7 +5996,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Prof. Deepali Virmani",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -6005,7 +6005,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "Dr. Simranjeet Kaur",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -6014,7 +6014,7 @@ const TIMETABLE_DATA = {
                     "subject": "BEE",
                     "group": null,
                     "professor": "Ms. Anita Chaudhary",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   }
                 ],
@@ -6025,7 +6025,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Neeraj Kant",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -6034,7 +6034,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "Ms. Vandana Yadav",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -6043,7 +6043,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Prof. Deepali Virmani",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -6052,7 +6052,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "Dr. Simranjeet Kaur",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -6097,7 +6097,7 @@ const TIMETABLE_DATA = {
                     "subject": "CommSkills",
                     "group": null,
                     "professor": "Dr. Ankita Sethi",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   }
                 ]
@@ -6128,7 +6128,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Dr. Rajiv Chopra",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -6137,7 +6137,7 @@ const TIMETABLE_DATA = {
                     "subject": "CommSkills",
                     "group": null,
                     "professor": "Dr. Ankita Sethi",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -6146,7 +6146,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "Dr. Kanika",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -6155,7 +6155,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "Dr. Aarti",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -6164,7 +6164,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Neeraj Kant",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   }
                 ],
@@ -6211,7 +6211,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Neeraj Kant",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -6220,7 +6220,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Dr. Rajiv Chopra",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -6229,7 +6229,7 @@ const TIMETABLE_DATA = {
                     "subject": "BEE",
                     "group": null,
                     "professor": "Ms. Depinder Kaur",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -6238,7 +6238,7 @@ const TIMETABLE_DATA = {
                     "subject": "CommSkills",
                     "group": null,
                     "professor": "Dr. Ankita Sethi",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -6247,7 +6247,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "Dr. Aarti",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   }
                 ],
@@ -6276,7 +6276,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "Dr. Aarti",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -6285,7 +6285,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Dr. Rajiv Chopra",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -6294,7 +6294,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "Dr. Kanika",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -6303,7 +6303,7 @@ const TIMETABLE_DATA = {
                     "subject": "Env_Studies",
                     "group": null,
                     "professor": "Dr. Hema Kundra",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   }
                 ],
@@ -6314,7 +6314,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "Dr. Aarti",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -6323,7 +6323,7 @@ const TIMETABLE_DATA = {
                     "subject": "BEE",
                     "group": null,
                     "professor": "Ms. Depinder Kaur",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -6377,7 +6377,7 @@ const TIMETABLE_DATA = {
                     "subject": "Env_Studies",
                     "group": null,
                     "professor": "Dr. Hema Kundra",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   }
                 ],
@@ -6388,7 +6388,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "Dr. Kanika",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -6433,7 +6433,7 @@ const TIMETABLE_DATA = {
                     "subject": "CommSkills",
                     "group": null,
                     "professor": "Dr. Ankita Sethi",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -6442,7 +6442,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Neeraj Kant",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   },
                   {
@@ -6451,7 +6451,7 @@ const TIMETABLE_DATA = {
                     "subject": "BEE",
                     "group": null,
                     "professor": "Ms. Depinder Kaur",
-                    "location": null,
+                    "location": "LEC_8",
                     "type": "lecture"
                   }
                 ]
@@ -7381,7 +7381,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Harneet Singh",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -7390,7 +7390,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Ms. Shipra Raheja",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -7399,7 +7399,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "Dr. Aarti",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -7408,7 +7408,7 @@ const TIMETABLE_DATA = {
                     "subject": "BEE",
                     "group": null,
                     "professor": "Ms. Anita Chaudhary",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -7417,7 +7417,7 @@ const TIMETABLE_DATA = {
                     "subject": "Env_Studies",
                     "group": null,
                     "professor": "Dr. Himani",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -7426,7 +7426,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "Dr. Simmi Singh, Dr. Daljeet Kaur",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -7435,7 +7435,7 @@ const TIMETABLE_DATA = {
                     "subject": "CommSkills",
                     "group": null,
                     "professor": "Dr. Ankita Sethi",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   }
                 ],
@@ -7446,7 +7446,7 @@ const TIMETABLE_DATA = {
                     "subject": "CommSkills",
                     "group": null,
                     "professor": "Dr. Ankita Sethi",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -7455,7 +7455,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "Dr. Aarti",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -7464,7 +7464,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "Dr. Simmi Singh, Dr. Daljeet Kaur",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -7509,7 +7509,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Harneet Singh",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   }
                 ],
@@ -7520,7 +7520,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Harneet Singh",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -7529,7 +7529,7 @@ const TIMETABLE_DATA = {
                     "subject": "BEE",
                     "group": null,
                     "professor": "Ms. Anita Chaudhary",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -7538,7 +7538,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "Dr. Aarti",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -7556,7 +7556,7 @@ const TIMETABLE_DATA = {
                     "subject": "Env_Studies",
                     "group": null,
                     "professor": "Dr. Himani",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   }
                 ],
@@ -7585,7 +7585,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "Dr. Aarti",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -7594,7 +7594,7 @@ const TIMETABLE_DATA = {
                     "subject": "BEE",
                     "group": null,
                     "professor": "Ms. Anita Chaudhary",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -7603,7 +7603,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "Dr. Simmi Singh, Dr. Daljeet Kaur",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -7612,7 +7612,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Ms. Shipra Raheja",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -7621,7 +7621,7 @@ const TIMETABLE_DATA = {
                     "subject": "CommSkills",
                     "group": null,
                     "professor": "Dr. Ankita Sethi",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   }
                 ],
@@ -7722,7 +7722,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Ms. Shipra Raheja",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   }
                 ]
@@ -7735,7 +7735,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "Dr. Aarti",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -7744,7 +7744,7 @@ const TIMETABLE_DATA = {
                     "subject": "CommSkills",
                     "group": null,
                     "professor": "Dr. Ankita Sethi",
-                    "location": null,
+                    "location": "LEC_2",
                     "type": "lecture"
                   },
                   {
@@ -7762,7 +7762,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Mr. Pardeep Gulati",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   },
                   {
@@ -7771,7 +7771,7 @@ const TIMETABLE_DATA = {
                     "subject": "BEE",
                     "group": null,
                     "professor": "Ms. Disha",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   }
                 ],
@@ -7782,7 +7782,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "Dr. Daljeet Kaur",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   },
                   {
@@ -7827,7 +7827,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "Dr. Aarti",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   },
                   {
@@ -7874,7 +7874,7 @@ const TIMETABLE_DATA = {
                     "subject": "Env_Studies",
                     "group": null,
                     "professor": "Dr. Himani",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   },
                   {
@@ -7919,7 +7919,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Harneet Singh",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   },
                   {
@@ -7928,7 +7928,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "Dr. Daljeet Kaur",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   },
                   {
@@ -7937,7 +7937,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "Dr. Aarti",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   }
                 ],
@@ -7948,7 +7948,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Mr. Pardeep Gulati",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   },
                   {
@@ -7993,7 +7993,7 @@ const TIMETABLE_DATA = {
                     "subject": "CommSkills",
                     "group": null,
                     "professor": "Dr. Ankita Sethi",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   },
                   {
@@ -8002,7 +8002,7 @@ const TIMETABLE_DATA = {
                     "subject": "BEE",
                     "group": null,
                     "professor": "Ms. Disha",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   },
                   {
@@ -8011,7 +8011,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Harneet Singh",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   }
                 ],
@@ -8022,7 +8022,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Harneet Singh",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   },
                   {
@@ -8031,7 +8031,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "Dr. Aarti",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   },
                   {
@@ -8040,7 +8040,7 @@ const TIMETABLE_DATA = {
                     "subject": "Env_Studies",
                     "group": null,
                     "professor": "Dr. Himani",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   },
                   {
@@ -8049,7 +8049,7 @@ const TIMETABLE_DATA = {
                     "subject": "CommSkills",
                     "group": null,
                     "professor": "Dr. Ankita Sethi",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   },
                   {
@@ -8058,7 +8058,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Mr. Pardeep Gulati",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   },
                   {
@@ -8067,7 +8067,7 @@ const TIMETABLE_DATA = {
                     "subject": "BEE",
                     "group": null,
                     "professor": "Ms. Disha",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   },
                   {
@@ -8076,7 +8076,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "Dr. Daljeet Kaur",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   }
                 ]
@@ -8089,7 +8089,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Ms. Ravinder Kaur",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -8190,7 +8190,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Ms. Bhavneet Kaur",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -8199,7 +8199,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Ms. Ravinder Kaur",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -8208,7 +8208,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC1",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -8217,7 +8217,7 @@ const TIMETABLE_DATA = {
                     "subject": "BEE",
                     "group": null,
                     "professor": "Ms. Disha",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -8226,7 +8226,7 @@ const TIMETABLE_DATA = {
                     "subject": "CommSkills",
                     "group": null,
                     "professor": "Dr. Seema Singh",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -8235,7 +8235,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "Dr. Ambika Tundwal",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   }
                 ],
@@ -8291,7 +8291,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "Dr. Ambika Tundwal",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -8300,7 +8300,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC1",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -8309,7 +8309,7 @@ const TIMETABLE_DATA = {
                     "subject": "CommSkills",
                     "group": null,
                     "professor": "Dr. Seema Singh",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   }
                 ],
@@ -8320,7 +8320,7 @@ const TIMETABLE_DATA = {
                     "subject": "BEE",
                     "group": null,
                     "professor": "Ms. Disha",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -8329,7 +8329,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "Dr. Ambika Tundwal",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -8338,7 +8338,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC1",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -8347,7 +8347,7 @@ const TIMETABLE_DATA = {
                     "subject": "CommSkills",
                     "group": null,
                     "professor": "Dr. Seema Singh",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -8356,7 +8356,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Ms. Ravinder Kaur",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -8365,7 +8365,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Ms. Bhavneet Kaur",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -8374,7 +8374,7 @@ const TIMETABLE_DATA = {
                     "subject": "Env_Studies",
                     "group": null,
                     "professor": "Dr. Sanjeev",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   }
                 ],
@@ -8403,7 +8403,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC1",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -8412,7 +8412,7 @@ const TIMETABLE_DATA = {
                     "subject": "BEE",
                     "group": null,
                     "professor": "Ms. Disha",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -8421,7 +8421,7 @@ const TIMETABLE_DATA = {
                     "subject": "Env_Studies",
                     "group": null,
                     "professor": "Dr. Sanjeev",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   },
                   {
@@ -8430,7 +8430,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Ms. Bhavneet Kaur",
-                    "location": null,
+                    "location": "LEC_7",
                     "type": "lecture"
                   }
                 ]
@@ -8443,7 +8443,7 @@ const TIMETABLE_DATA = {
                     "subject": "Env_Studies",
                     "group": null,
                     "professor": "Dr. Manpreet Kaur Bagga",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   },
                   {
@@ -8452,7 +8452,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "Dr. Kanika",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   },
                   {
@@ -8497,7 +8497,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Gurjinder Singh",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   },
                   {
@@ -8506,7 +8506,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Mr. Amandeep Singh",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -8515,7 +8515,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC1",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   }
                 ],
@@ -8526,7 +8526,7 @@ const TIMETABLE_DATA = {
                     "subject": "CommSkills",
                     "group": null,
                     "professor": "Dr. Seema Singh",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   },
                   {
@@ -8535,7 +8535,7 @@ const TIMETABLE_DATA = {
                     "subject": "BEE",
                     "group": null,
                     "professor": "Ms. Depinder Kaur",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   },
                   {
@@ -8544,7 +8544,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Mr. Amandeep Singh",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -8553,7 +8553,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC1",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -8562,7 +8562,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "Dr. Kanika",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   },
                   {
@@ -8571,7 +8571,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Gurjinder Singh",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -8580,7 +8580,7 @@ const TIMETABLE_DATA = {
                     "subject": "Env_Studies",
                     "group": null,
                     "professor": "Dr. Manpreet Kaur Bagga",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   }
                 ],
@@ -8591,7 +8591,7 @@ const TIMETABLE_DATA = {
                     "subject": "BEE",
                     "group": null,
                     "professor": "Ms. Depinder Kaur",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   },
                   {
@@ -8600,7 +8600,7 @@ const TIMETABLE_DATA = {
                     "subject": "EM",
                     "group": null,
                     "professor": "Mr. Gurjinder Singh",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   },
                   {
@@ -8609,7 +8609,7 @@ const TIMETABLE_DATA = {
                     "subject": "CommSkills",
                     "group": null,
                     "professor": "Dr. Seema Singh",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -8701,7 +8701,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC1",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   }
                 ],
@@ -8712,7 +8712,7 @@ const TIMETABLE_DATA = {
                     "subject": "CommSkills",
                     "group": null,
                     "professor": "Dr. Seema Singh",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -8721,7 +8721,7 @@ const TIMETABLE_DATA = {
                     "subject": "BEE",
                     "group": null,
                     "professor": "Ms. Depinder Kaur",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -8730,7 +8730,7 @@ const TIMETABLE_DATA = {
                     "subject": "PPS",
                     "group": null,
                     "professor": "Mr. Amandeep Singh",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -8739,7 +8739,7 @@ const TIMETABLE_DATA = {
                     "subject": "Engg. Physics-1",
                     "group": null,
                     "professor": "Dr. Kanika",
-                    "location": null,
+                    "location": "LEC_3",
                     "type": "lecture"
                   },
                   {
@@ -8784,7 +8784,7 @@ const TIMETABLE_DATA = {
                     "subject": "SMT-1",
                     "group": null,
                     "professor": "MATHS_FAC1",
-                    "location": null,
+                    "location": "LEC_4",
                     "type": "lecture"
                   }
                 ]
@@ -10811,8 +10811,7 @@ const TIMETABLE_DATA = {
       }
     }
   }
-};;
-
+}
 const COLLEGE_META = [
   { id: "gtb4cec", label: "GTB4CEC", full: "GTB 4th Centenary Engineering College", available: true },
   { id: "gtbit", label: "GTBIT", full: "Guru Tegh Bahadur Institute of Technology", available: true }

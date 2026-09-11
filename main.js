@@ -1,4 +1,4 @@
-const VIEWS = ["timetable", "auth", "profile", "attendance", "attendance-status"];
+const VIEWS = ["timetable", "auth", "profile", "attendance", "attendance-status", "rooms", "faculty"];
 
 function showView(name) {
   VIEWS.forEach(v => {
@@ -12,6 +12,8 @@ function showView(name) {
   if (name === "profile") renderProfileView();
   if (name === "attendance") renderAttendanceView();
   if (name === "attendance-status") renderAttendanceStatusView();
+  if (name === "rooms") renderRoomsView();
+  if (name === "faculty") renderFacultyView();
 }
 
 function showToast(message) {

@@ -42,7 +42,7 @@
   </div>
 
   <div class="selector-block">
-    <div class="selector-label">SEMESTER</div>
+    <div class="selector-label">YEAR</div>
     <div class="chip-row" id="semesterChips"></div>
   </div>
 
@@ -67,15 +67,18 @@
   <div class="timeline" id="timeline"></div>
   <div class="grid-view" id="gridView" style="display:none;"></div>
 
-  <div class="nav-stub">
-    <div class="nav-stub-item"><span class="nav-stub-icon">&#9635;</span>Faculty<span class="soon-badge">SOON</span></div>
-    <div class="nav-stub-item"><span class="nav-stub-icon">&#9776;</span>Resources<span class="soon-badge">SOON</span></div>
-    <div class="nav-stub-item"><span class="nav-stub-icon">&#9737;</span>Notices<span class="soon-badge">SOON</span></div>
-    <div class="nav-stub-item"><span class="nav-stub-icon">&#9679;</span>Campus<span class="soon-badge">SOON</span></div>
-  </div>
-
   <footer>Built by students, for students &mdash; not an official college platform.</footer>
 
+</section>
+
+<section id="view-rooms" class="view" style="display:none;">
+  <h2 class="view-title">Empty Rooms</h2>
+  <div id="roomsContent"></div>
+</section>
+
+<section id="view-faculty" class="view" style="display:none;">
+  <h2 class="view-title">Find a Teacher</h2>
+  <div id="facultyContent"></div>
 </section>
 
 <section id="view-auth" class="view" style="display:none;">
@@ -106,8 +109,8 @@
   <div class="bottom-nav-inner">
     <button class="bottom-nav-item active" data-view="timetable">&#9635;<small>Timetable</small></button>
     <button class="bottom-nav-item" data-view="attendance">&#10003;<small>Attendance</small></button>
-    <button class="bottom-nav-item">&#9737;<small>Notices</small></button>
-    <button class="bottom-nav-item">&#9679;<small>Campus</small></button>
+    <button class="bottom-nav-item" data-view="rooms">&#9638;<small>Rooms</small></button>
+    <button class="bottom-nav-item" data-view="faculty">&#9678;<small>Faculty</small></button>
   </div>
 </nav>
 
@@ -117,10 +120,13 @@
 <script src="data.js"></script>
 <script src="lib/tt-helpers.js"></script>
 <script src="app.js"></script>
+<script src="lib/scan-helpers.js"></script>
 <script src="auth.js"></script>
 <script src="profile.js"></script>
 <script src="attendance.js"></script>
 <script src="attendance-status.js"></script>
+<script src="rooms.js"></script>
+<script src="faculty.js"></script>
 <script src="auth-view.js"></script>
 <script src="main.js"></script>
 </body>

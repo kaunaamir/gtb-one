@@ -30,8 +30,7 @@ function renderProfileReadOnly(wrap) {
       <div class="info-row"><span>Email</span><strong>${p.email}</strong></div>
       <div class="info-row"><span>College</span><strong>${collegeLabel(p.college)}</strong></div>
       <div class="info-row"><span>Branch</span><strong>${branchLabel(p.college, p.branch)}</strong></div>
-      <div class="info-row"><span>Year</span><strong>${p.year}</strong></div>
-      <div class="info-row"><span>Semester</span><strong>${p.semester}</strong></div>
+      <div class="info-row"><span>Year</span><strong>Year ${p.year} (Sem ${p.semester})</strong></div>
       <div class="info-row"><span>Section</span><strong>${p.section}</strong></div>
       <div class="info-row"><span>Roll number</span><strong>${p.roll_number}</strong></div>
     </div>
@@ -75,11 +74,7 @@ function buildProfileFormFields(existing) {
       </label>
       <label class="form-field">
         <span>Year</span>
-        <select id="pfYear">${[1, 2, 3, 4].map(y => `<option value="${y}" ${existing && existing.year === y ? "selected" : ""}>${y}</option>`).join("")}</select>
-      </label>
-      <label class="form-field">
-        <span>Semester</span>
-        <select id="pfSemester">${semesters.map(s => `<option value="${s}" ${s === selSemester ? "selected" : ""}>Sem ${s}</option>`).join("")}</select>
+        <select id="pfSemester">${semesters.map(s => `<option value="${s}" ${s === selSemester ? "selected" : ""}>Year ${ttYearFromSemester(s)}</option>`).join("")}</select>
       </label>
       <label class="form-field">
         <span>Section</span>
@@ -107,7 +102,7 @@ function wireProfileFormCascade() {
   }
   function refreshSemesters() {
     const semesters = ttAvailableSemesters(collegeSel.value, branchSel.value);
-    semesterSel.innerHTML = semesters.map(s => `<option value="${s}">Sem ${s}</option>`).join("");
+    semesterSel.innerHTML = semesters.map(s => `<option value="${s}">Year ${ttYearFromSemester(s)}</option>`).join("");
     refreshSections();
   }
   function refreshSections() {
@@ -139,7 +134,7 @@ function renderProfileForm(wrap, existing) {
       email: authState.user.email,
       college: document.getElementById("pfCollege").value,
       branch: document.getElementById("pfBranch").value,
-      year: Number(document.getElementById("pfYear").value),
+      year: ttYearFromSemester(document.getElementById("pfSemester").value),
       semester: Number(document.getElementById("pfSemester").value),
       section: document.getElementById("pfSection").value,
       roll_number: document.getElementById("pfRoll").value.trim()

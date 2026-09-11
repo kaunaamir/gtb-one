@@ -131,11 +131,7 @@ function renderSignupForm() {
       </label>
       <label class="form-field">
         <span>Year</span>
-        <select id="suYear">${[1, 2, 3, 4].map(y => `<option value="${y}">${y}</option>`).join("")}</select>
-      </label>
-      <label class="form-field">
-        <span>Semester</span>
-        <select id="suSemester">${semesters.map(s => `<option value="${s}">Sem ${s}</option>`).join("")}</select>
+        <select id="suSemester">${semesters.map(s => `<option value="${s}">Year ${ttYearFromSemester(s)}</option>`).join("")}</select>
       </label>
       <label class="form-field">
         <span>Section</span>
@@ -158,7 +154,7 @@ function renderSignupForm() {
   }
   function refreshSemesters() {
     const sems = ttAvailableSemesters(collegeSel.value, branchSel.value);
-    semesterSel.innerHTML = sems.map(s => `<option value="${s}">Sem ${s}</option>`).join("");
+    semesterSel.innerHTML = sems.map(s => `<option value="${s}">Year ${ttYearFromSemester(s)}</option>`).join("");
     refreshSections();
   }
   function refreshSections() {
@@ -181,7 +177,7 @@ function renderSignupForm() {
       rollNumber: document.getElementById("suRoll").value.trim(),
       college: collegeSel.value,
       branch: branchSel.value,
-      year: Number(document.getElementById("suYear").value),
+      year: ttYearFromSemester(semesterSel.value),
       semester: Number(semesterSel.value),
       section: sectionSel.value
     };

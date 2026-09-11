@@ -10,16 +10,23 @@ Static site (no build step) — live class timetable, student auth, profile, and
 **New — auth, profile, attendance:**
 - `config.js` — Supabase URL/anon key (public, safe to expose — see Security below)
 - `lib/supabase-client.js` — creates the shared `sb` client
-- `lib/tt-helpers.js` — reads `TIMETABLE_DATA` by college/branch/semester/section, merges multi-period labs into single sessions, builds a stable session id
+- `lib/tt-helpers.js` — reads `TIMETABLE_DATA` by college/branch/semester/section, merges multi-period labs into single sessions, builds a stable session id, and maps semester numbers to the "Year 1–4" labels shown in the UI
+- `lib/scan-helpers.js` — cross-section scans used by Rooms and Faculty: every section in a college, room occupancy at a given moment, and a professor's full schedule
 - `auth.js` — signup/login/logout/forgot-password/session restore against Supabase Auth
 - `auth-view.js` — login/signup/forgot-password/reset-password forms
 - `profile.js` — profile completion form, edit form, read-only view
 - `attendance.js` — today's attendance page: builds today's classes from the timetable + profile, present/absent controls, bulk actions, save
 - `attendance-status.js` — overall/lecture/lab percentages, subject-wise table, attendance history
+- `rooms.js` — Empty Room Locator: which rooms are free vs. in use right now
+- `faculty.js` — Teacher Locator: search a professor, see where they are right now and their full weekly schedule
 - `main.js` — view router, topbar account menu, toast notifications, app boot
 - `supabase.sql` — table definitions, indexes, RLS policies
 
-The existing timetable UI, colors, typography, and the Feed/Grid views are untouched — they're now wrapped in a `#view-timetable` section that the new views sit alongside.
+The existing timetable UI, colors, typography, and the Feed/Grid views are untouched — they're now wrapped in a `#view-timetable` section that the new views sit alongside. The old "Faculty/Resources/Notices/Campus — SOON" placeholder block is gone; the bottom nav is now four working destinations (Timetable, Attendance, Rooms, Faculty).
+
+## Year vs. Semester
+
+The selector is labeled **Year** (1–4) since that's how students actually think about it, but the timetable data is keyed by real semester number (1–8). GTBIT's current data has real content in semesters 1, 3, 5, 7 — the autumn/odd semester for each of the four years — so `Year 1` resolves to semester 1, `Year 2` to semester 3, and so on. `ttResolveSemesterForYear()` in `lib/tt-helpers.js` picks whichever of a year's two semester slots actually has content; if a spring/even semester gets added later for some year, it'll be picked up automatically without any UI changes. The `profiles` table still has both `year` and `semester` columns — `year` is now always `Math.ceil(semester / 2)`, computed automatically, not asked twice.
 
 ## 1. Supabase setup
 
@@ -64,6 +71,13 @@ from inside this folder, or drag the folder into the Vercel dashboard.
 3. Try **Mark All Present**, then flip one class to **Absent** individually.
 4. Hit **Save Today's Attendance**. Refresh the page and reopen Attendance — your marks should still be there, and the button now says "Update Today's Attendance".
 5. Open **Attendance Status** from the account menu — you should see overall/lecture/lab percentages and a subject-wise breakdown from what you just saved. Save attendance on a different date (or edit a row's `date` directly in Supabase's table editor to backfill test data) to see the History list populate.
+
+## Testing Rooms and Faculty
+
+Neither requires login.
+
+1. Open **Rooms** (bottom nav) — pick a college, and you'll see which rooms are free right now and which are in use with what's running there. It recalculates from the live clock, same as the timetable's "Now" band.
+2. Open **Faculty**, pick a college, and type part of a professor's name (GTB4CEC uses initials like `KV`; GTBIT uses full names). Pick a result to see whether they're in a class right now plus their full week, grouped by day.
 
 ## Assumptions about the timetable data
 
