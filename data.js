@@ -11105,6 +11105,7 @@ const COLLEGE_META = [
 const BRANCH_META = {
   gtb4cec: [
     { id: "cse", label: "CSE", full: "Computer Science & Engineering", available: true },
+    { id: "it", label: "IT", full: "Information Technology", available: true },
     { id: "aiml", label: "AI/ML", full: "Artificial Intelligence & Machine Learning", available: false },
     { id: "ds", label: "DS", full: "Data Science", available: false }
   ],
@@ -11119,7 +11120,7 @@ const BRANCH_META = {
 
 const SEMESTER_META = [1, 2, 3, 4, 5, 6, 7, 8];
 
-const LAST_UPDATED = "10 September 2026";
+const LAST_UPDATED = "11 September 2026";
 
 const WEEKDAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 const ALL_DAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];

@@ -48,7 +48,7 @@ One tap to [dotnotes.in](https://dotnotes.in) for notes, PYQs, and study materia
 | College | Branches |
 |---|---|
 | GTBIT | CSE, AI/ML, DS, ECE, IT |
-| GTB4CEC | CSE |
+| GTB4CEC | CSE, IT |
 
 More branches and colleges get added as timetable data comes in. If your section's missing or looks wrong, that's a data gap, not a bug — let me know and I'll get it added.
 
