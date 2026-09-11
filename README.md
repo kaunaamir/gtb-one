@@ -79,6 +79,15 @@ Neither requires login.
 1. Open **Rooms** (bottom nav) — pick a college, and you'll see which rooms are free right now and which are in use with what's running there. It recalculates from the live clock, same as the timetable's "Now" band.
 2. Open **Faculty**, pick a college, and type part of a professor's name (GTB4CEC uses initials like `KV`; GTBIT uses full names). Pick a result to see whether they're in a class right now plus their full week, grouped by day.
 
+## Testing Resources
+
+No login required.
+
+1. Open **Resources** (bottom nav) — pick college, branch, and year, all pulled from your real timetable data.
+2. Every subject taught that year shows up as a card. Tapping "Open on Dotnotes ↗" opens `dotnotes.in/subject/<CODE>` in a new tab, using your subject's exact code (e.g. `BEE`, `PPS`, `EVS`).
+3. This is a real, confirmed route on their site — `dotnotes.in/subject/SE` genuinely resolves to their Software Engineering page. Standard GGSIPU codes (most of GTBIT's, and common ones like BEE/PPS/EVS/EM) should land precisely. A few of GTB4CEC's more shorthand codes (`EPY`, `SMT`, `CS`) might not match dotnotes' own slug for that subject and could land on an empty/not-found state on their site rather than a 404 — never the wrong subject, just possibly not found yet.
+4. If you (or a student) checks a subject in a real browser and finds the code dotnotes actually uses differs from ours, add it to `DOTNOTES_CODE_OVERRIDES` at the top of `resources.js` — e.g. `{"EPY": "PHY"}` — and that subject will always resolve correctly from then on.
+
 ## Assumptions about the timetable data
 
 - `year` is collected and stored on the profile as the spec asked, but the timetable itself is only keyed by **semester**, not year — so lookups use college + branch + semester + section, and `year` is descriptive metadata only.
