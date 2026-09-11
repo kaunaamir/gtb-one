@@ -1012,6 +1012,14 @@ footer {
   font-size: 0.72rem;
 }
 
+.credit {
+  margin-top: 6px;
+  color: var(--brass-dim);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
 .bottom-nav {
   position: fixed;
   bottom: 0;
