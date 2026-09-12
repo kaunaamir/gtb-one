@@ -69,22 +69,30 @@ function renderAttendanceView() {
 
     if (!attendanceState.sessions.length) {
       wrap.innerHTML = `
+        <div class="att-top-actions">
+          <button class="btn-ghost btn-status-top" id="viewStatusBtn">View Attendance Status &#8594;</button>
+        </div>
         <div class="att-header">
           <div class="att-date">${dateLabel}</div>
           <div class="att-context">${collegeLabel(p.college)} &middot; ${branchLabel(p.college, p.branch)} &middot; ${p.section}</div>
         </div>
         <div class="empty-panel">No classes scheduled today.</div>
       `;
+      document.getElementById("viewStatusBtn").onclick = () => showView("attendance-status");
       return;
     }
 
     const rows = attendanceState.sessions.map(s => attendanceRowHTML(s)).join("");
 
     wrap.innerHTML = `
+      <div class="att-top-actions">
+        <button class="btn-ghost btn-status-top" id="viewStatusBtn">View Attendance Status &#8594;</button>
+      </div>
       <div class="att-header">
         <div class="att-date">${dateLabel}</div>
         <div class="att-context">${collegeLabel(p.college)} &middot; ${branchLabel(p.college, p.branch)} &middot; ${p.section}</div>
       </div>
+      <div class="att-disclaimer">Heads up &mdash; this only counts what you mark here. It's not synced with the official college portal yet, so treat it as your own tracker, not the final word.</div>
       <div class="bulk-row">
         <button class="btn-ghost" id="markAllPresent">Mark All Present</button>
         <button class="btn-ghost" id="markAllAbsent">Mark All Absent</button>
@@ -94,7 +102,6 @@ function renderAttendanceView() {
         <div class="form-error" id="attError"></div>
         <button class="btn-primary btn-wide" id="saveAttendanceBtn">${Object.keys(attendanceState.existingRecords).length ? "Update Today's Attendance" : "Save Today's Attendance"}</button>
       </div>
-      <button class="btn-ghost" id="viewStatusBtn">View Attendance Status</button>
     `;
 
     document.getElementById("markAllPresent").onclick = () => setAllMarks("present");

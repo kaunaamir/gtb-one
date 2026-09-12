@@ -1,3 +1,5 @@
+const TIMETABLE_SELECTION_KEY = "gtbone_last_timetable";
+
 const state = {
   college: "gtb4cec",
   branch: "cse",
@@ -6,6 +8,33 @@ const state = {
   day: ALL_DAYS[new Date().getDay()],
   view: "feed"
 };
+
+function loadSavedTimetableSelection() {
+  try {
+    const raw = localStorage.getItem(TIMETABLE_SELECTION_KEY);
+    if (!raw) return;
+    const saved = JSON.parse(raw);
+    if (!saved || typeof saved !== "object") return;
+    if (saved.college && TIMETABLE_DATA[saved.college]) state.college = saved.college;
+    const branch = TIMETABLE_DATA[state.college] && TIMETABLE_DATA[state.college].branches[saved.branch];
+    if (saved.branch && branch) state.branch = saved.branch;
+    if (saved.semester && branch && branch.semesters[String(saved.semester)]) state.semester = saved.semester;
+    if (saved.section) state.section = saved.section;
+  } catch (e) {}
+}
+
+function saveTimetableSelection() {
+  try {
+    localStorage.setItem(TIMETABLE_SELECTION_KEY, JSON.stringify({
+      college: state.college,
+      branch: state.branch,
+      semester: state.semester,
+      section: state.section
+    }));
+  } catch (e) {}
+}
+
+loadSavedTimetableSelection();
 
 function getBranchData() {
   const college = TIMETABLE_DATA[state.college];
@@ -322,6 +351,7 @@ function renderAll() {
   renderNowBand();
   renderSchedule();
   renderUpdated();
+  saveTimetableSelection();
 }
 
 document.getElementById("feedBtn").onclick = () => {

@@ -15,16 +15,17 @@ Pick your college, branch, year, and section, and see your schedule two ways:
 - **Feed** — a scrollable day view with a live "Now" band showing your current or next class, counting down.
 - **Grid** — the same day laid out as cards you can scan at a glance.
 
-No account needed for this — it's the front page.
+No account needed for this — it's the front page. It also remembers whatever college/branch/year/section you last looked at, so it opens back on that instead of resetting to the default every time.
 
 ### ✅ Attendance
 Sign up once with your college/branch/year/section, and from then on:
 - Your **today's classes** are pulled straight from the timetable automatically — no re-selecting anything.
 - Mark each class **Present / Absent** (or bulk-mark the whole day).
 - Multi-period labs count as one session, not two or three.
-- **Attendance Status** shows your overall, lecture, and lab percentages, plus a subject-by-subject breakdown and full history.
+- **Attendance Status** shows a circular meter (green/yellow/red against your minimum criteria), overall/lecture/lab percentages, a subject-by-subject breakdown with how many classes you can skip (or need to attend) to stay above criteria, and full history.
+- The minimum criteria defaults to 75% but you can change it right on the status page — everything recalculates instantly.
 
-Requires an account (free, just an email + password).
+Requires an account (free, just an email + password). Worth knowing: this only counts what you mark here — it's not synced with the official college portal (yet), so treat it as your own tracker, not the final word.
 
 ### 🏫 Empty Rooms
 See which rooms are free *right now*, and what's running in the ones that aren't — updates live off the clock, no login needed.

@@ -15,6 +15,9 @@
   --sage: #7ea27a;
   --slate: #7a86a0;
   --danger: #c1655a;
+  --tier-green: #7ea27a;
+  --tier-yellow: #f5a623;
+  --tier-red: #c1655a;
   --gv-lecture: #5b8def;
   --gv-lab: #ec5c93;
   --gv-tutorial: #34d399;
@@ -782,6 +785,186 @@ main { padding-top: 20px; }
 .seg-unmarked.active { background: var(--panel-raised); border-color: var(--text-faint); color: var(--text); }
 
 .save-bar { margin-top: 20px; max-width: 420px; }
+
+.att-top-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 14px;
+}
+
+.btn-status-top {
+  margin: 0;
+  color: var(--brass);
+  border-color: var(--brass-dim);
+}
+
+.att-disclaimer {
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-m);
+  padding: 10px 14px;
+  margin: 14px 0 4px;
+}
+
+.status-disclaimer {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--brass-dim);
+  border-radius: var(--radius-m);
+  padding: 12px 16px;
+  margin-bottom: 20px;
+}
+
+.meter-panel {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-m);
+  padding: 18px;
+  flex-wrap: wrap;
+}
+
+.meter-wrap {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  flex: 0 0 auto;
+}
+
+.meter-svg { width: 130px; height: 130px; }
+
+.meter-track {
+  fill: none;
+  stroke: var(--line);
+  stroke-width: 10;
+}
+
+.meter-fill {
+  fill: none;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transition: stroke-dasharray 0.5s ease;
+}
+
+.meter-fill.tier-green { stroke: var(--tier-green); }
+.meter-fill.tier-yellow { stroke: var(--tier-yellow); }
+.meter-fill.tier-red { stroke: var(--tier-red); }
+
+.meter-center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.meter-pct {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--text);
+}
+
+.meter-tag {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin-top: 2px;
+}
+
+.tier-text-green { color: var(--tier-green); }
+.tier-text-yellow { color: var(--tier-yellow); }
+.tier-text-red { color: var(--tier-red); }
+
+.meter-side {
+  flex: 1;
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.meter-legend {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.74rem;
+  color: var(--text-dim);
+  flex-wrap: wrap;
+}
+
+.legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.legend-dot.tier-green { background: var(--tier-green); }
+.legend-dot.tier-yellow { background: var(--tier-yellow); margin-left: 10px; }
+.legend-dot.tier-red { background: var(--tier-red); margin-left: 10px; }
+
+.projection-line {
+  font-size: 0.86rem;
+  color: var(--text);
+  line-height: 1.4;
+}
+
+.projection-line strong { color: var(--brass); font-family: 'Space Grotesk', sans-serif; }
+
+.criteria-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  font-weight: 600;
+  gap: 10px;
+}
+
+.criteria-input-wrap {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-s);
+  padding: 5px 10px;
+}
+
+.criteria-input-wrap input {
+  width: 42px;
+  background: none;
+  border: none;
+  color: var(--text);
+  font-size: 0.85rem;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  text-align: right;
+}
+
+.criteria-input-wrap input:focus { outline: none; }
+.criteria-input-wrap span { color: var(--text-faint); font-size: 0.8rem; }
+
+.pct-cell { font-weight: 700; }
+
+.proj-cell {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.proj-green { color: var(--tier-green); }
+.proj-red { color: var(--tier-red); }
 
 .stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
 
