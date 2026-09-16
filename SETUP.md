@@ -72,16 +72,16 @@ from inside this folder, or drag the folder into the Vercel dashboard.
 ## Testing attendance
 
 1. With a profile set up for a section that has classes today, open **Attendance** (bottom nav).
-2. You'll see today's classes pulled straight from `data.js` for your college/branch/semester/section — breaks are excluded, any subject in `ATTENDANCE_EXCLUDED_SUBJECTS` (top of `attendance.js`, `["SMT"]` by default) is excluded, and any lab that spans consecutive periods in the timetable (same subject, group, room, and professor) is shown as one session, not one row per hour.
+2. You'll see today's classes pulled straight from `data.js` for your college/branch/semester/section — breaks are excluded, any subject in `ATTENDANCE_EXCLUDED_SUBJECTS` (top of `attendance.js`, `["SCA"]` by default) is excluded, and any lab that spans consecutive periods in the timetable (same subject, group, room, and professor) is shown as one session, not one row per hour.
 3. Try **Mark All Present**, then flip one class to **Absent** individually, and one to **Cancelled**.
 4. Hit **Save Today's Attendance**. Refresh the page and reopen Attendance — your marks should still be there (Cancelled classes just won't have created a row at all), and the button now says "Update Today's Attendance".
 5. Tap **+ Add Past Attendance** at the top, pick an earlier date, and repeat — this reuses the exact same session-building and save logic, just against a chosen date instead of today. Marking an already-saved class as Cancelled deletes that row rather than leaving a stray "cancelled" status in the table (the `attendance.status` check constraint only allows `present`/`absent`, by design).
 6. Open **Attendance Status** from the account menu — you should see overall/lecture/lab percentages and a subject-wise breakdown from what you just saved. Save attendance on a different date to see the History list populate.
 
-If you're backfilling attendance from before GTB One existed and already have stray rows for an excluded subject (e.g. old `SMT` entries), delete them directly in Supabase's SQL editor:
+If you're backfilling attendance from before GTB One existed and already have stray rows for an excluded subject (e.g. old `SCA` entries), delete them directly in Supabase's SQL editor:
 
 ```sql
-delete from attendance where subject = 'SMT';
+delete from attendance where subject = 'SCA';
 ```
 
 ## Testing Rooms and Faculty
