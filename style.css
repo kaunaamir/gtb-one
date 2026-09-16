@@ -124,6 +124,31 @@ button, select {
 
 main { padding-top: 20px; }
 
+.site-notice {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  margin: 12px 0 20px;
+  padding: 13px 15px;
+  background: rgba(211, 162, 74, 0.07);
+  border: 1px solid rgba(211, 162, 74, 0.28);
+  border-radius: var(--radius-m);
+  color: var(--text-dim);
+  font-size: 0.78rem;
+  line-height: 1.55;
+}
+
+.site-notice-icon {
+  flex: 0 0 auto;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.site-notice strong {
+  color: var(--text);
+  font-weight: 700;
+}
+
 .now-band {
   background: linear-gradient(160deg, var(--panel-raised) 0%, var(--panel) 100%);
   border: 1px solid var(--line);
