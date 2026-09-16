@@ -34,8 +34,11 @@ The selector is labeled **Year** (1–4) since that's how students actually thin
 
 1. Create a project at supabase.com.
 2. Open the SQL editor and run `supabase.sql` — this creates `profiles` and `attendance`, their indexes, and Row Level Security policies (a student can only read/write their own rows).
-3. Go to **Authentication → Providers → Email** and turn **off** "Confirm email". This is the simplest path: the app creates the student's profile row immediately after signup, which requires an active session. If you'd rather keep email confirmation on, that's fine too — see "Assumptions" below for what changes.
-4. Go to **Project Settings → API** and copy the **Project URL** and **anon public key**.
+3. **Turn off "Confirm email"** — this is the single most common cause of signup feeling broken or gated behind an extra step (easy to mistake for 2FA). Go to **Authentication → Providers → Email** in the Supabase dashboard and switch "Confirm email" **off**. With it off, signup logs the student straight in with no email round-trip. GTB One has no 2FA/MFA code anywhere — if signup feels like it's demanding an extra verification step, this setting is almost certainly why.
+4. **Check "Enable Captcha Protection" is off too** — under **Authentication → Settings**. If it's on, signup will fail outright, since GTB One doesn't render a captcha widget to satisfy it.
+5. Go to **Project Settings → API** and copy the **Project URL** and **anon public key**.
+
+If you'd rather keep email confirmation on despite the above, that's supported too — see "Assumptions" below for what changes.
 
 ## 2. Configure the app
 
@@ -69,10 +72,17 @@ from inside this folder, or drag the folder into the Vercel dashboard.
 ## Testing attendance
 
 1. With a profile set up for a section that has classes today, open **Attendance** (bottom nav).
-2. You'll see today's classes pulled straight from `data.js` for your college/branch/semester/section — breaks are excluded, and any lab that spans consecutive periods in the timetable (same subject, group, room, and professor) is shown as one session, not one row per hour.
-3. Try **Mark All Present**, then flip one class to **Absent** individually.
-4. Hit **Save Today's Attendance**. Refresh the page and reopen Attendance — your marks should still be there, and the button now says "Update Today's Attendance".
-5. Open **Attendance Status** from the account menu — you should see overall/lecture/lab percentages and a subject-wise breakdown from what you just saved. Save attendance on a different date (or edit a row's `date` directly in Supabase's table editor to backfill test data) to see the History list populate.
+2. You'll see today's classes pulled straight from `data.js` for your college/branch/semester/section — breaks are excluded, any subject in `ATTENDANCE_EXCLUDED_SUBJECTS` (top of `attendance.js`, `["SMT"]` by default) is excluded, and any lab that spans consecutive periods in the timetable (same subject, group, room, and professor) is shown as one session, not one row per hour.
+3. Try **Mark All Present**, then flip one class to **Absent** individually, and one to **Cancelled**.
+4. Hit **Save Today's Attendance**. Refresh the page and reopen Attendance — your marks should still be there (Cancelled classes just won't have created a row at all), and the button now says "Update Today's Attendance".
+5. Tap **+ Add Past Attendance** at the top, pick an earlier date, and repeat — this reuses the exact same session-building and save logic, just against a chosen date instead of today. Marking an already-saved class as Cancelled deletes that row rather than leaving a stray "cancelled" status in the table (the `attendance.status` check constraint only allows `present`/`absent`, by design).
+6. Open **Attendance Status** from the account menu — you should see overall/lecture/lab percentages and a subject-wise breakdown from what you just saved. Save attendance on a different date to see the History list populate.
+
+If you're backfilling attendance from before GTB One existed and already have stray rows for an excluded subject (e.g. old `SMT` entries), delete them directly in Supabase's SQL editor:
+
+```sql
+delete from attendance where subject = 'SMT';
+```
 
 ## Testing Rooms and Faculty
 

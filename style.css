@@ -766,16 +766,17 @@ main { padding-top: 20px; }
 .att-subject { font-weight: 700; font-size: 0.95rem; margin-bottom: 6px; }
 .att-meta { display: flex; gap: 10px; font-size: 0.76rem; color: var(--text-dim); margin-bottom: 10px; }
 
-.seg { display: flex; gap: 6px; }
+.seg { display: flex; gap: 5px; flex-wrap: wrap; }
 
 .seg-btn {
   flex: 1;
+  min-width: 64px;
   background: var(--ink);
   border: 1px solid var(--line);
   color: var(--text-dim);
   padding: 8px 4px;
   border-radius: var(--radius-s);
-  font-size: 0.76rem;
+  font-size: 0.72rem;
   font-weight: 700;
   cursor: pointer;
 }
@@ -783,19 +784,50 @@ main { padding-top: 20px; }
 .seg-present.active { background: rgba(126,162,122,0.18); border-color: var(--sage); color: var(--sage); }
 .seg-absent.active { background: rgba(193,101,90,0.18); border-color: var(--danger); color: var(--danger); }
 .seg-unmarked.active { background: var(--panel-raised); border-color: var(--text-faint); color: var(--text); }
+.seg-cancelled.active { background: rgba(122,134,160,0.18); border-color: var(--slate); color: var(--slate); }
 
 .save-bar { margin-top: 20px; max-width: 420px; }
 
 .att-top-actions {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
   margin-bottom: 14px;
+  flex-wrap: wrap;
 }
 
 .btn-status-top {
   margin: 0;
   color: var(--brass);
   border-color: var(--brass-dim);
+}
+
+.backfill-picker {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-m);
+  padding: 10px 14px;
+  margin-bottom: 14px;
+}
+
+.backfill-picker label {
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  font-weight: 600;
+}
+
+.backfill-picker input[type="date"] {
+  background: var(--ink);
+  border: 1px solid var(--line);
+  color: var(--text);
+  padding: 7px 10px;
+  border-radius: var(--radius-s);
+  font-size: 0.85rem;
+  font-family: inherit;
 }
 
 .att-disclaimer {
