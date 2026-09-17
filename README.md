@@ -2,7 +2,7 @@
 
 A student-made timetable, attendance, and campus companion for **GTB4CEC** and **GTBIT** — everything you'd normally have five different screenshots and a group-chat pin for, in one place.
 
-🔗 **Live site:** [gtb-one.vercel.app](https://gtb-one.vercel.app)
+🔗 **Live site:** [gtbone.vercel.app](https://gtbone.vercel.app)
 
 Not an official college platform — just a student project, built to make the everyday stuff (what's my next class, where's this room, am I short on attendance) faster to check.
 
