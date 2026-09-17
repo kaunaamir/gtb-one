@@ -464,7 +464,7 @@ const TIMETABLE_DATA = {
                     "start": "09:00",
                     "end": "10:00",
                     "subject": "EM",
-                    "location": "L-2",
+                    "location": "L-1",
                     "professor": "AR",
                     "type": "lecture"
                   },
