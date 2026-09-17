@@ -116,13 +116,16 @@ async function renderAttendanceStatusView() {
     return;
   }
 
-  if (!data.length) {
+  // SCA is not an attendance subject, so ignore any old SCA rows too.
+  const attendanceData = data.filter(r => String(r.subject || "").toUpperCase() !== "SCA");
+
+  if (!attendanceData.length) {
     wrap.innerHTML = `<div class="empty-panel">No attendance recorded yet.</div>`;
     return;
   }
 
   const criteria = getAttendanceCriteria();
-  const stats = computeStats(data);
+  const stats = computeStats(attendanceData);
   const overallPct = Number(stats.overall);
   const tier = attendanceTier(overallPct, criteria);
 
@@ -154,7 +157,7 @@ async function renderAttendanceStatusView() {
       `;
     }).join("");
 
-  const history = groupByDate(data);
+  const history = groupByDate(attendanceData);
   const historyHTML = history.map(([date, rows]) => {
     const present = rows.filter(r => r.status === "present").length;
     const absent = rows.filter(r => r.status === "absent").length;

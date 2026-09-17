@@ -1,4 +1,4 @@
-const ATTENDANCE_EXCLUDED_SUBJECTS = ["SMT"];
+const ATTENDANCE_EXCLUDED_SUBJECTS = ["SCA"];
 
 const attendanceState = {
   mode: "today",
