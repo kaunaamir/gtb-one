@@ -2,7 +2,7 @@
 
 A student-made timetable, attendance, and campus companion for **GTB4CEC** and **GTBIT** — everything you'd normally have five different screenshots and a group-chat pin for, in one place.
 
-🔗 **Live site:** [gtb-one.vercel.app](https://gtb-one.vercel.app)
+🔗 **Live site:** [gtbone.vercel.app](https://gtbone.vercel.app)
 
 Not an official college platform — just a student project, built to make the everyday stuff (what's my next class, where's this room, am I short on attendance) faster to check.
 
@@ -42,7 +42,7 @@ One tap to [dotnotes.in](https://dotnotes.in) for notes, PYQs, and study materia
 
 ## Getting started
 
-1. Go to [gtb-one.vercel.app](https://gtb-one.vercel.app).
+1. Go to [gtbone.vercel.app](https://gtbone.vercel.app).
 2. Browse the timetable, check empty rooms, or find a teacher — no account needed.
 3. Want to track attendance? Tap the account icon (top right) → **Sign up**, and fill in your college/branch/year/section once. Everything after that is automatic.
 
