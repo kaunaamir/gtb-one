@@ -6,6 +6,8 @@ A student-made timetable, attendance, and campus companion for **GTB4CEC** and *
 
 Not an official college platform — just a student project, built to make the everyday stuff (what's my next class, where's this room, am I short on attendance) faster to check.
 
+**📲 Install it like an app** — a banner at the top always offers one-tap install on Android/desktop Chrome, or shows the "Add to Home Screen" steps directly on iPhone (Apple doesn't allow any site to trigger that automatically — Safari's Share menu is the only way in, so the banner just tells you exactly where to tap). No app store, opens straight to a home screen icon like any other app.
+
 ---
 
 ## What's in it

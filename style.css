@@ -122,6 +122,68 @@ button, select {
   cursor: not-allowed;
 }
 
+.install-banner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 10px 18px;
+  background: linear-gradient(90deg, rgba(211,162,74,0.14), rgba(211,162,74,0.04));
+  border-bottom: 1px solid var(--brass-dim);
+  flex-wrap: wrap;
+}
+
+.install-banner-icon {
+  flex: 0 0 auto;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--brass);
+  color: #14100a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.install-banner-text {
+  flex: 1 1 200px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.install-banner-text strong {
+  font-size: 0.82rem;
+  color: var(--text);
+  font-weight: 700;
+}
+
+.install-banner-text span {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  line-height: 1.4;
+  transition: color 0.2s ease;
+}
+
+.install-banner-sub-highlight { color: var(--brass) !important; font-weight: 600; }
+
+.install-banner-btn {
+  flex: 0 0 auto;
+  background: var(--brass);
+  color: #14100a;
+  border: none;
+  padding: 8px 14px;
+  border-radius: var(--radius-s);
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
 main { padding-top: 20px; }
 
 .site-notice {
@@ -1259,6 +1321,13 @@ footer {
   font-weight: 600;
   letter-spacing: 0.01em;
 }
+
+.credit a {
+  color: var(--brass);
+  text-decoration: none;
+}
+
+.credit a:hover { text-decoration: underline; }
 
 .bottom-nav {
   position: fixed;

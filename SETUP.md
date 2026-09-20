@@ -21,6 +21,8 @@ Static site (no build step) — live class timetable, student auth, profile, and
 - `attendance-status.js` — overall/lecture/lab percentages, subject-wise table, attendance history
 - `rooms.js` — Empty Room Locator: which rooms are free vs. in use right now
 - `faculty.js` — Teacher Locator: search a professor, see where they are right now and their full weekly schedule
+- `install.js` — the "Install GTB One" banner, always visible (not dismissible) until the browser reports the site is already running standalone. On Android/desktop Chrome it captures `beforeinstallprompt` and the button calls the real native `prompt()` — an actual one-tap install, not just instructions. On iOS there is no such API at all (Apple restricts home-screen installation to a manual Safari Share-menu tap, full stop — no website, including this one, can trigger it programmatically), so the banner just tells the user exactly where to tap instead of showing a button that can't do anything.
+- `manifest.json`, `sw.js`, `icons/` — what makes the site an installable PWA. `sw.js` is intentionally minimal (network-first, no real offline caching) — it exists mainly because Chrome requires a registered service worker before it'll consider a site installable
 - `main.js` — view router, topbar account menu, toast notifications, app boot
 - `supabase.sql` — table definitions, indexes, RLS policies
 
@@ -78,10 +80,10 @@ from inside this folder, or drag the folder into the Vercel dashboard.
 5. Tap **+ Add Past Attendance** at the top, pick an earlier date, and repeat — this reuses the exact same session-building and save logic, just against a chosen date instead of today. Marking an already-saved class as Cancelled deletes that row rather than leaving a stray "cancelled" status in the table (the `attendance.status` check constraint only allows `present`/`absent`, by design).
 6. Open **Attendance Status** from the account menu — you should see overall/lecture/lab percentages and a subject-wise breakdown from what you just saved. Save attendance on a different date to see the History list populate.
 
-If you're backfilling attendance from before GTB One existed and already have stray rows for an excluded subject (e.g. old `SCA` entries), delete them directly in Supabase's SQL editor:
+If you're backfilling attendance from before GTB One existed and already have stray rows for an excluded subject (e.g. old `SMT` or `SCA` entries), delete them directly in Supabase's SQL editor:
 
 ```sql
-delete from attendance where subject = 'SCA';
+delete from attendance where subject in ('SMT', 'SCA');
 ```
 
 ## Testing Rooms and Faculty

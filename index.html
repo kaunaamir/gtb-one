@@ -5,6 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GTB One — Timetable</title>
 <meta name="description" content="Live class timetable for GTB4CEC and GTBIT students.">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0d1117">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="GTB One">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,6 +27,15 @@
     </div>
   </div>
 </header>
+
+<div class="install-banner" id="installBanner" style="display:none;">
+  <span class="install-banner-icon">&#8595;</span>
+  <div class="install-banner-text">
+    <strong id="installBannerTitle">Install GTB One</strong>
+    <span id="installBannerSub">Get one-tap access from your home screen, no browser needed.</span>
+  </div>
+  <button class="install-banner-btn" id="installBannerBtn">Install App</button>
+</div>
 
 <main class="shell">
 
@@ -108,7 +124,10 @@
 
 <footer>
   Built by students, for students &mdash; not an official college platform.
-  <div class="credit">Made by Aamir &middot; GTB4CEC, CSE, First Year</div>
+  <div class="credit">
+    Made by Aamir &middot; GTB4CEC, CSE, First Year
+    &middot; <a href="https://aamir-devs.vercel.app" target="_blank" rel="noopener">More about the developer &#8599;</a>
+  </div>
 </footer>
 
 </main>
@@ -139,6 +158,7 @@
 <script src="rooms.js"></script>
 <script src="faculty.js"></script>
 <script src="auth-view.js"></script>
+<script src="install.js"></script>
 <script src="main.js"></script>
 </body>
 </html>
