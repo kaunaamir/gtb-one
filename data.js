@@ -864,6 +864,592 @@ const TIMETABLE_DATA = {
             }
           }
         }
+      },
+      "ds": {
+        "name": "Data Science",
+        "semesters": {
+          "1": {
+            "sections": {
+              "DS-1": {
+                "Monday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "PPS",
+                    "location": "L-2",
+                    "professor": "KV",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "MATH",
+                    "location": "L-2",
+                    "professor": "HITESH",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "EPHY-1",
+                    "location": "L-2",
+                    "professor": "DR ASHA",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:00",
+                    "end": "12:30",
+                    "subject": null,
+                    "location": null,
+                    "professor": null,
+                    "type": "break"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "SCA",
+                    "location": null,
+                    "professor": null,
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "ENV S",
+                    "location": "L9",
+                    "professor": "SRS",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "HV",
+                    "location": "L9",
+                    "professor": "SS",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "BEE",
+                    "location": "L1",
+                    "professor": "Anil",
+                    "type": "lecture"
+                  }
+                ],
+                "Tuesday": [
+                  {
+                    "start": "09:00",
+                    "end": "11:00",
+                    "subject": "BEE LAB",
+                    "location": "GF MMS BLOCK",
+                    "professor": "ANIL/SKD/RNT",
+                    "type": "lab"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "EM",
+                    "location": "LR",
+                    "professor": "YK",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:00",
+                    "end": "12:30",
+                    "subject": null,
+                    "location": null,
+                    "professor": null,
+                    "type": "break"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "EPHY-1",
+                    "location": "L-3",
+                    "professor": "DR ASHA",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "EVS",
+                    "location": "L3",
+                    "professor": "DM",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "BEE",
+                    "location": "L3",
+                    "professor": "Anil",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "SCA",
+                    "location": null,
+                    "professor": null,
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "PPS",
+                    "location": "L-2",
+                    "professor": "KV",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "MATH",
+                    "location": "L-2",
+                    "professor": "HITESH",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "EM",
+                    "location": "LR",
+                    "professor": "YK",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:00",
+                    "end": "12:30",
+                    "subject": null,
+                    "location": null,
+                    "professor": null,
+                    "type": "break"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "SCA",
+                    "location": null,
+                    "professor": null,
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "MATH",
+                    "location": "LR",
+                    "professor": "HITESH",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "16:30",
+                    "subject": "PPS LAB",
+                    "location": "IT LAB MMS BLOCK FF",
+                    "professor": null,
+                    "type": "lab"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "EVS",
+                    "location": "L-2",
+                    "professor": "SRS",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "BEE",
+                    "location": "L-2",
+                    "professor": "Anil",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "EM",
+                    "location": "LR",
+                    "professor": "YK",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:00",
+                    "end": "12:30",
+                    "subject": null,
+                    "location": null,
+                    "professor": null,
+                    "type": "break"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "14:30",
+                    "subject": "ENV SCLAB",
+                    "location": "BVS BLOCK SF",
+                    "professor": "SRS/KC",
+                    "type": "lab"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "16:30",
+                    "subject": "EG LAB K1 / PHY LAB G2",
+                    "location": "MMS BLOCK 1 FLOOR / BVS BLOCK 3 FLOOR",
+                    "professor": null,
+                    "type": "lab"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "09:00",
+                    "end": "11:00",
+                    "subject": "EG LAB K2 / PHY LAB G1",
+                    "location": "MMS BLOCK 1 FLOOR / BVS BLOCK 3 FLOOR",
+                    "professor": null,
+                    "type": "lab"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "SCA",
+                    "location": null,
+                    "professor": null,
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:00",
+                    "end": "12:30",
+                    "subject": null,
+                    "location": null,
+                    "professor": null,
+                    "type": "break"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "14:30",
+                    "subject": "BEE LAB",
+                    "location": "GF MMS BLOCK",
+                    "professor": "ANIL/SKD/RNT",
+                    "type": "lab"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "EPHY-1",
+                    "location": "L-1",
+                    "professor": "DR ASHA",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "HV",
+                    "location": "L1",
+                    "professor": "SS",
+                    "type": "lecture"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "ece": {
+        "name": "Electronics & Communication Engineering",
+        "semesters": {
+          "1": {
+            "sections": {
+              "ECE-1": {
+                "Monday": [
+                  {
+                    "start": "09:00",
+                    "end": "11:00",
+                    "subject": "PPS LAB / G2 / G1",
+                    "location": "MMS BLOCK 2 FLOOR",
+                    "professor": null,
+                    "type": "lab"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "PPS",
+                    "location": "L8",
+                    "professor": "PS",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:00",
+                    "end": "12:30",
+                    "subject": null,
+                    "location": null,
+                    "professor": null,
+                    "type": "break"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "SMT-1",
+                    "location": "L-2",
+                    "professor": "HITESH",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "HV",
+                    "location": "L2",
+                    "professor": "SANGITA",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "BEE",
+                    "location": "L2",
+                    "professor": "ANIL",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "EPHY-1",
+                    "location": "L2",
+                    "professor": "DR ASHA",
+                    "type": "lecture"
+                  }
+                ],
+                "Tuesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "SCA",
+                    "location": null,
+                    "professor": null,
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "EPHY-1",
+                    "location": "L8",
+                    "professor": "DR ASHA",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "PPS",
+                    "location": "L8",
+                    "professor": "PS",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:00",
+                    "end": "12:30",
+                    "subject": null,
+                    "location": null,
+                    "professor": null,
+                    "type": "break"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "13:30",
+                    "subject": "ENV S",
+                    "location": "L8",
+                    "professor": "SRS",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "13:30",
+                    "end": "14:30",
+                    "subject": "EM",
+                    "location": "LR",
+                    "professor": "YK",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "SCA",
+                    "location": null,
+                    "professor": null,
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "SCA",
+                    "location": null,
+                    "professor": null,
+                    "type": "lecture"
+                  }
+                ],
+                "Wednesday": [
+                  {
+                    "start": "09:00",
+                    "end": "10:00",
+                    "subject": "BEE",
+                    "location": "L1",
+                    "professor": "ANIL",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "subject": "EPHY-1",
+                    "location": "L1",
+                    "professor": "DR ASHA",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "HV",
+                    "location": "L8",
+                    "professor": "SANGITA",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:00",
+                    "end": "12:30",
+                    "subject": null,
+                    "location": null,
+                    "professor": null,
+                    "type": "break"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "14:30",
+                    "subject": "EG LAB G1 / PHY LAB G2",
+                    "location": "MMS BLOCK 1 FLOOR / BVS BLOCK 3 FLOOR",
+                    "professor": null,
+                    "type": "lab"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "ENV S",
+                    "location": "LR",
+                    "professor": "SRS",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "EM",
+                    "location": "LR",
+                    "professor": "YK",
+                    "type": "lecture"
+                  }
+                ],
+                "Thursday": [
+                  {
+                    "start": "09:00",
+                    "end": "11:00",
+                    "subject": "BEE LAB",
+                    "location": "GF MMS BLOCK",
+                    "professor": "ANIL/SKD/RNT",
+                    "type": "lab"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "SMT-1",
+                    "location": "L8",
+                    "professor": "HITESH",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:00",
+                    "end": "12:30",
+                    "subject": null,
+                    "location": null,
+                    "professor": null,
+                    "type": "break"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "14:30",
+                    "subject": "EG LAB G2 / PHY LAB G1",
+                    "location": "MMS BLOCK 1 FLOOR / BVS BLOCK 3 FLOOR",
+                    "professor": null,
+                    "type": "lab"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "PPS",
+                    "location": "LR",
+                    "professor": "PS",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "BEE",
+                    "location": "LR",
+                    "professor": "ANIL",
+                    "type": "lecture"
+                  }
+                ],
+                "Friday": [
+                  {
+                    "start": "09:00",
+                    "end": "11:00",
+                    "subject": "BEE LAB",
+                    "location": "GF MMS BLOCK",
+                    "professor": "ANIL/SKD/RNT",
+                    "type": "lab"
+                  },
+                  {
+                    "start": "11:00",
+                    "end": "12:00",
+                    "subject": "BEE",
+                    "location": "L8",
+                    "professor": "ANIL",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "12:00",
+                    "end": "12:30",
+                    "subject": null,
+                    "location": null,
+                    "professor": null,
+                    "type": "break"
+                  },
+                  {
+                    "start": "12:30",
+                    "end": "14:30",
+                    "subject": "CHEM/LAB",
+                    "location": "BVS BLOCK SF",
+                    "professor": "SRS/KC",
+                    "type": "lab"
+                  },
+                  {
+                    "start": "14:30",
+                    "end": "15:30",
+                    "subject": "SMT-1",
+                    "location": "LR",
+                    "professor": "HITESH",
+                    "type": "lecture"
+                  },
+                  {
+                    "start": "15:30",
+                    "end": "16:30",
+                    "subject": "EM",
+                    "location": "LR",
+                    "professor": "YK",
+                    "type": "lecture"
+                  }
+                ]
+              }
+            }
+          }
+        }
       }
     }
   },
@@ -11107,7 +11693,8 @@ const BRANCH_META = {
     { id: "cse", label: "CSE", full: "Computer Science & Engineering", available: true },
     { id: "it", label: "IT", full: "Information Technology", available: true },
     { id: "aiml", label: "AI/ML", full: "Artificial Intelligence & Machine Learning", available: false },
-    { id: "ds", label: "DS", full: "Data Science", available: false }
+    { id: "ds", label: "DS", full: "Data Science", available: true },
+    { id: "ece", label: "ECE", full: "Electronics & Communication Engineering", available: true }
   ],
   gtbit: [
     { id: "cse", label: "CSE", full: "Computer Science & Engineering", available: true },
@@ -11120,7 +11707,7 @@ const BRANCH_META = {
 
 const SEMESTER_META = [1, 2, 3, 4, 5, 6, 7, 8];
 
-const LAST_UPDATED = "11 September 2026";
+const LAST_UPDATED = "23 September 2026";
 
 const WEEKDAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 const ALL_DAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
